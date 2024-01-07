@@ -1,0 +1,1338 @@
+age,sex,bmi,children,smoker,region,charges,bmi_category,age_category
+19,1,27.9,0,1,southwest,16884.924,Surpoids,18-25
+18,0,33.77,1,0,southeast,1725.5523,Obésité modérée,18-25
+28,0,33.0,3,0,southeast,4449.462,Obésité modérée,26-30
+33,0,22.705,0,0,northwest,21984.47061,Poids normal,31-40
+32,0,28.88,0,0,northwest,3866.8552,Surpoids,31-40
+31,1,25.74,0,0,southeast,3756.6216,Surpoids,31-40
+46,1,33.44,1,0,southeast,8240.5896,Obésité modérée,41-50
+37,1,27.74,3,0,northwest,7281.5056,Surpoids,31-40
+37,0,29.83,2,0,northeast,6406.4107,Surpoids,31-40
+60,1,25.84,0,0,northwest,28923.13692,Surpoids,51-60
+25,0,26.22,0,0,northeast,2721.3208,Surpoids,18-25
+62,1,26.29,0,1,southeast,27808.7251,Surpoids,61+
+23,0,34.4,0,0,southwest,1826.843,Obésité modérée,18-25
+56,1,39.82,0,0,southeast,11090.7178,Obésité sévère,51-60
+27,0,42.13,0,1,southeast,39611.7577,Obésité morbide,26-30
+19,0,24.6,1,0,southwest,1837.237,Poids normal,18-25
+52,1,30.78,1,0,northeast,10797.3362,Obésité modérée,51-60
+23,0,23.845,0,0,northeast,2395.17155,Poids normal,18-25
+56,0,40.3,0,0,southwest,10602.385,Obésité morbide,51-60
+30,0,35.3,0,1,southwest,36837.467,Obésité sévère,26-30
+60,1,36.005,0,0,northeast,13228.84695,Obésité sévère,51-60
+30,1,32.4,1,0,southwest,4149.736,Obésité modérée,26-30
+18,0,34.1,0,0,southeast,1137.011,Obésité modérée,18-25
+34,1,31.92,1,1,northeast,37701.8768,Obésité modérée,31-40
+37,0,28.025,2,0,northwest,6203.90175,Surpoids,31-40
+59,1,27.72,3,0,southeast,14001.1338,Surpoids,51-60
+63,1,23.085,0,0,northeast,14451.83515,Poids normal,61+
+55,1,32.775,2,0,northwest,12268.63225,Obésité modérée,51-60
+23,0,17.385,1,0,northwest,2775.19215,Insuffisance pondérale,18-25
+31,0,36.3,2,1,southwest,38711.0,Obésité sévère,31-40
+22,0,35.6,0,1,southwest,35585.576,Obésité sévère,18-25
+18,1,26.315,0,0,northeast,2198.18985,Surpoids,18-25
+19,1,28.6,5,0,southwest,4687.797,Surpoids,18-25
+63,0,28.31,0,0,northwest,13770.0979,Surpoids,61+
+28,0,36.4,1,1,southwest,51194.55914,Obésité sévère,26-30
+19,0,20.425,0,0,northwest,1625.43375,Poids normal,18-25
+62,1,32.965,3,0,northwest,15612.19335,Obésité modérée,61+
+26,0,20.8,0,0,southwest,2302.3,Poids normal,26-30
+35,0,36.67,1,1,northeast,39774.2763,Obésité sévère,31-40
+60,0,39.9,0,1,southwest,48173.361,Obésité sévère,51-60
+24,1,26.6,0,0,northeast,3046.062,Surpoids,18-25
+31,1,36.63,2,0,southeast,4949.7587,Obésité sévère,31-40
+41,0,21.78,1,0,southeast,6272.4772,Poids normal,41-50
+37,1,30.8,2,0,southeast,6313.759,Obésité modérée,31-40
+38,0,37.05,1,0,northeast,6079.6715,Obésité sévère,31-40
+55,0,37.3,0,0,southwest,20630.28351,Obésité sévère,51-60
+18,1,38.665,2,0,northeast,3393.35635,Obésité sévère,18-25
+28,1,34.77,0,0,northwest,3556.9223,Obésité modérée,26-30
+60,1,24.53,0,0,southeast,12629.8967,Poids normal,51-60
+36,0,35.2,1,1,southeast,38709.176,Obésité sévère,31-40
+18,1,35.625,0,0,northeast,2211.13075,Obésité sévère,18-25
+21,1,33.63,2,0,northwest,3579.8287,Obésité modérée,18-25
+48,0,28.0,1,1,southwest,23568.272,Surpoids,41-50
+36,0,34.43,0,1,southeast,37742.5757,Obésité modérée,31-40
+40,1,28.69,3,0,northwest,8059.6791,Surpoids,31-40
+58,0,36.955,2,1,northwest,47496.49445,Obésité sévère,51-60
+58,1,31.825,2,0,northeast,13607.36875,Obésité modérée,51-60
+18,0,31.68,2,1,southeast,34303.1672,Obésité modérée,18-25
+53,1,22.88,1,1,southeast,23244.7902,Poids normal,51-60
+34,1,37.335,2,0,northwest,5989.52365,Obésité sévère,31-40
+43,0,27.36,3,0,northeast,8606.2174,Surpoids,41-50
+25,0,33.66,4,0,southeast,4504.6624,Obésité modérée,18-25
+64,0,24.7,1,0,northwest,30166.61817,Poids normal,61+
+28,1,25.935,1,0,northwest,4133.64165,Surpoids,26-30
+20,1,22.42,0,1,northwest,14711.7438,Poids normal,18-25
+19,1,28.9,0,0,southwest,1743.214,Surpoids,18-25
+61,1,39.1,2,0,southwest,14235.072,Obésité sévère,61+
+40,0,26.315,1,0,northwest,6389.37785,Surpoids,31-40
+40,1,36.19,0,0,southeast,5920.1041,Obésité sévère,31-40
+28,0,23.98,3,1,southeast,17663.1442,Poids normal,26-30
+27,1,24.75,0,1,southeast,16577.7795,Poids normal,26-30
+31,0,28.5,5,0,northeast,6799.458,Surpoids,31-40
+53,1,28.1,3,0,southwest,11741.726,Surpoids,51-60
+58,0,32.01,1,0,southeast,11946.6259,Obésité modérée,51-60
+44,0,27.4,2,0,southwest,7726.854,Surpoids,41-50
+57,0,34.01,0,0,northwest,11356.6609,Obésité modérée,51-60
+29,1,29.59,1,0,southeast,3947.4131,Surpoids,26-30
+21,0,35.53,0,0,southeast,1532.4697,Obésité sévère,18-25
+22,1,39.805,0,0,northeast,2755.02095,Obésité sévère,18-25
+41,1,32.965,0,0,northwest,6571.02435,Obésité modérée,41-50
+31,0,26.885,1,0,northeast,4441.21315,Surpoids,31-40
+45,1,38.285,0,0,northeast,7935.29115,Obésité sévère,41-50
+22,0,37.62,1,1,southeast,37165.1638,Obésité sévère,18-25
+48,1,41.23,4,0,northwest,11033.6617,Obésité morbide,41-50
+37,1,34.8,2,1,southwest,39836.519,Obésité modérée,31-40
+45,0,22.895,2,1,northwest,21098.55405,Poids normal,41-50
+57,1,31.16,0,1,northwest,43578.9394,Obésité modérée,51-60
+56,1,27.2,0,0,southwest,11073.176,Surpoids,51-60
+46,1,27.74,0,0,northwest,8026.6666,Surpoids,41-50
+55,1,26.98,0,0,northwest,11082.5772,Surpoids,51-60
+21,1,39.49,0,0,southeast,2026.9741,Obésité sévère,18-25
+53,1,24.795,1,0,northwest,10942.13205,Poids normal,51-60
+59,0,29.83,3,1,northeast,30184.9367,Surpoids,51-60
+35,0,34.77,2,0,northwest,5729.0053,Obésité modérée,31-40
+64,1,31.3,2,1,southwest,47291.055,Obésité modérée,61+
+28,1,37.62,1,0,southeast,3766.8838,Obésité sévère,26-30
+54,1,30.8,3,0,southwest,12105.32,Obésité modérée,51-60
+55,0,38.28,0,0,southeast,10226.2842,Obésité sévère,51-60
+56,0,19.95,0,1,northeast,22412.6485,Poids normal,51-60
+38,0,19.3,0,1,southwest,15820.699,Poids normal,31-40
+41,1,31.6,0,0,southwest,6186.127,Obésité modérée,41-50
+30,0,25.46,0,0,northeast,3645.0894,Surpoids,26-30
+18,1,30.115,0,0,northeast,21344.8467,Obésité modérée,18-25
+61,1,29.92,3,1,southeast,30942.1918,Surpoids,61+
+34,1,27.5,1,0,southwest,5003.853,Surpoids,31-40
+20,0,28.025,1,1,northwest,17560.37975,Surpoids,18-25
+19,1,28.4,1,0,southwest,2331.519,Surpoids,18-25
+26,0,30.875,2,0,northwest,3877.30425,Obésité modérée,26-30
+29,0,27.94,0,0,southeast,2867.1196,Surpoids,26-30
+63,0,35.09,0,1,southeast,47055.5321,Obésité sévère,61+
+54,0,33.63,1,0,northwest,10825.2537,Obésité modérée,51-60
+55,1,29.7,2,0,southwest,11881.358,Surpoids,51-60
+37,0,30.8,0,0,southwest,4646.759,Obésité modérée,31-40
+21,1,35.72,0,0,northwest,2404.7338,Obésité sévère,18-25
+52,0,32.205,3,0,northeast,11488.31695,Obésité modérée,51-60
+60,0,28.595,0,0,northeast,30259.99556,Surpoids,51-60
+58,0,49.06,0,0,southeast,11381.3254,Obésité morbide,51-60
+29,1,27.94,1,1,southeast,19107.7796,Surpoids,26-30
+49,1,27.17,0,0,southeast,8601.3293,Surpoids,41-50
+37,1,23.37,2,0,northwest,6686.4313,Poids normal,31-40
+44,0,37.1,2,0,southwest,7740.337,Obésité sévère,41-50
+18,0,23.75,0,0,northeast,1705.6245,Poids normal,18-25
+20,1,28.975,0,0,northwest,2257.47525,Surpoids,18-25
+44,0,31.35,1,1,northeast,39556.4945,Obésité modérée,41-50
+47,1,33.915,3,0,northwest,10115.00885,Obésité modérée,41-50
+26,1,28.785,0,0,northeast,3385.39915,Surpoids,26-30
+19,1,28.3,0,1,southwest,17081.08,Surpoids,18-25
+52,1,37.4,0,0,southwest,9634.538,Obésité sévère,51-60
+32,1,17.765,2,1,northwest,32734.1863,Insuffisance pondérale,31-40
+38,0,34.7,2,0,southwest,6082.405,Obésité modérée,31-40
+59,1,26.505,0,0,northeast,12815.44495,Surpoids,51-60
+61,1,22.04,0,0,northeast,13616.3586,Poids normal,61+
+53,1,35.9,2,0,southwest,11163.568,Obésité sévère,51-60
+19,0,25.555,0,0,northwest,1632.56445,Surpoids,18-25
+20,1,28.785,0,0,northeast,2457.21115,Surpoids,18-25
+22,1,28.05,0,0,southeast,2155.6815,Surpoids,18-25
+19,0,34.1,0,0,southwest,1261.442,Obésité modérée,18-25
+22,0,25.175,0,0,northwest,2045.68525,Surpoids,18-25
+54,1,31.9,3,0,southeast,27322.73386,Obésité modérée,51-60
+22,1,36.0,0,0,southwest,2166.732,Obésité sévère,18-25
+34,0,22.42,2,0,northeast,27375.90478,Poids normal,31-40
+26,0,32.49,1,0,northeast,3490.5491,Obésité modérée,26-30
+34,0,25.3,2,1,southeast,18972.495,Surpoids,31-40
+29,0,29.735,2,0,northwest,18157.876,Surpoids,26-30
+30,0,28.69,3,1,northwest,20745.9891,Surpoids,26-30
+29,1,38.83,3,0,southeast,5138.2567,Obésité sévère,26-30
+46,0,30.495,3,1,northwest,40720.55105,Obésité modérée,41-50
+51,1,37.73,1,0,southeast,9877.6077,Obésité sévère,51-60
+53,1,37.43,1,0,northwest,10959.6947,Obésité sévère,51-60
+19,0,28.4,1,0,southwest,1842.519,Surpoids,18-25
+35,0,24.13,1,0,northwest,5125.2157,Poids normal,31-40
+48,0,29.7,0,0,southeast,7789.635,Surpoids,41-50
+32,1,37.145,3,0,northeast,6334.34355,Obésité sévère,31-40
+42,1,23.37,0,1,northeast,19964.7463,Poids normal,41-50
+40,1,25.46,1,0,northeast,7077.1894,Surpoids,31-40
+44,0,39.52,0,0,northwest,6948.7008,Obésité sévère,41-50
+48,0,24.42,0,1,southeast,21223.6758,Poids normal,41-50
+18,0,25.175,0,1,northeast,15518.18025,Surpoids,18-25
+30,0,35.53,0,1,southeast,36950.2567,Obésité sévère,26-30
+50,1,27.83,3,0,southeast,19749.38338,Surpoids,41-50
+42,1,26.6,0,1,northwest,21348.706,Surpoids,41-50
+18,1,36.85,0,1,southeast,36149.4835,Obésité sévère,18-25
+54,0,39.6,1,0,southwest,10450.552,Obésité sévère,51-60
+32,1,29.8,2,0,southwest,5152.134,Surpoids,31-40
+37,0,29.64,0,0,northwest,5028.1466,Surpoids,31-40
+47,0,28.215,4,0,northeast,10407.08585,Surpoids,41-50
+20,1,37.0,5,0,southwest,4830.63,Obésité sévère,18-25
+32,1,33.155,3,0,northwest,6128.79745,Obésité modérée,31-40
+19,1,31.825,1,0,northwest,2719.27975,Obésité modérée,18-25
+27,0,18.905,3,0,northeast,4827.90495,Poids normal,26-30
+63,0,41.47,0,0,southeast,13405.3903,Obésité morbide,61+
+49,0,30.3,0,0,southwest,8116.68,Obésité modérée,41-50
+18,0,15.96,0,0,northeast,1694.7964,Insuffisance pondérale,18-25
+35,1,34.8,1,0,southwest,5246.047,Obésité modérée,31-40
+24,1,33.345,0,0,northwest,2855.43755,Obésité modérée,18-25
+63,1,37.7,0,1,southwest,48824.45,Obésité sévère,61+
+38,0,27.835,2,0,northwest,6455.86265,Surpoids,31-40
+54,0,29.2,1,0,southwest,10436.096,Surpoids,51-60
+46,1,28.9,2,0,southwest,8823.279,Surpoids,41-50
+41,1,33.155,3,0,northeast,8538.28845,Obésité modérée,41-50
+58,0,28.595,0,0,northwest,11735.87905,Surpoids,51-60
+18,1,38.28,0,0,southeast,1631.8212,Obésité sévère,18-25
+22,0,19.95,3,0,northeast,4005.4225,Poids normal,18-25
+44,1,26.41,0,0,northwest,7419.4779,Surpoids,41-50
+44,0,30.69,2,0,southeast,7731.4271,Obésité modérée,41-50
+36,0,41.895,3,1,northeast,43753.33705,Obésité morbide,31-40
+26,1,29.92,2,0,southeast,3981.9768,Surpoids,26-30
+30,1,30.9,3,0,southwest,5325.651,Obésité modérée,26-30
+41,1,32.2,1,0,southwest,6775.961,Obésité modérée,41-50
+29,1,32.11,2,0,northwest,4922.9159,Obésité modérée,26-30
+61,0,31.57,0,0,southeast,12557.6053,Obésité modérée,61+
+36,1,26.2,0,0,southwest,4883.866,Surpoids,31-40
+25,0,25.74,0,0,southeast,2137.6536,Surpoids,18-25
+56,1,26.6,1,0,northwest,12044.342,Surpoids,51-60
+18,0,34.43,0,0,southeast,1137.4697,Obésité modérée,18-25
+19,0,30.59,0,0,northwest,1639.5631,Obésité modérée,18-25
+39,1,32.8,0,0,southwest,5649.715,Obésité modérée,31-40
+45,1,28.6,2,0,southeast,8516.829,Surpoids,41-50
+51,1,18.05,0,0,northwest,9644.2525,Insuffisance pondérale,51-60
+64,1,39.33,0,0,northeast,14901.5167,Obésité sévère,61+
+19,1,32.11,0,0,northwest,2130.6759,Obésité modérée,18-25
+48,1,32.23,1,0,southeast,8871.1517,Obésité modérée,41-50
+60,1,24.035,0,0,northwest,13012.20865,Poids normal,51-60
+27,1,36.08,0,1,southeast,37133.8982,Obésité sévère,26-30
+46,0,22.3,0,0,southwest,7147.105,Poids normal,41-50
+28,1,28.88,1,0,northeast,4337.7352,Surpoids,26-30
+59,0,26.4,0,0,southeast,11743.299,Surpoids,51-60
+35,0,27.74,2,1,northeast,20984.0936,Surpoids,31-40
+63,1,31.8,0,0,southwest,13880.949,Obésité modérée,61+
+40,0,41.23,1,0,northeast,6610.1097,Obésité morbide,31-40
+20,0,33.0,1,0,southwest,1980.07,Obésité modérée,18-25
+40,0,30.875,4,0,northwest,8162.71625,Obésité modérée,31-40
+24,0,28.5,2,0,northwest,3537.703,Surpoids,18-25
+34,1,26.73,1,0,southeast,5002.7827,Surpoids,31-40
+45,1,30.9,2,0,southwest,8520.026,Obésité modérée,41-50
+41,1,37.1,2,0,southwest,7371.772,Obésité sévère,41-50
+53,1,26.6,0,0,northwest,10355.641,Surpoids,51-60
+27,0,23.1,0,0,southeast,2483.736,Poids normal,26-30
+26,1,29.92,1,0,southeast,3392.9768,Surpoids,26-30
+24,1,23.21,0,0,southeast,25081.76784,Poids normal,18-25
+34,1,33.7,1,0,southwest,5012.471,Obésité modérée,31-40
+53,1,33.25,0,0,northeast,10564.8845,Obésité modérée,51-60
+32,0,30.8,3,0,southwest,5253.524,Obésité modérée,31-40
+19,0,34.8,0,1,southwest,34779.615,Obésité modérée,18-25
+42,0,24.64,0,1,southeast,19515.5416,Poids normal,41-50
+55,0,33.88,3,0,southeast,11987.1682,Obésité modérée,51-60
+28,0,38.06,0,0,southeast,2689.4954,Obésité sévère,26-30
+58,1,41.91,0,0,southeast,24227.33724,Obésité morbide,51-60
+41,1,31.635,1,0,northeast,7358.17565,Obésité modérée,41-50
+47,0,25.46,2,0,northeast,9225.2564,Surpoids,41-50
+42,1,36.195,1,0,northwest,7443.64305,Obésité sévère,41-50
+59,1,27.83,3,0,southeast,14001.2867,Surpoids,51-60
+19,1,17.8,0,0,southwest,1727.785,Insuffisance pondérale,18-25
+59,0,27.5,1,0,southwest,12333.828,Surpoids,51-60
+39,0,24.51,2,0,northwest,6710.1919,Poids normal,31-40
+40,1,22.22,2,1,southeast,19444.2658,Poids normal,31-40
+18,1,26.73,0,0,southeast,1615.7667,Surpoids,18-25
+31,0,38.39,2,0,southeast,4463.2051,Obésité sévère,31-40
+19,0,29.07,0,1,northwest,17352.6803,Surpoids,18-25
+44,0,38.06,1,0,southeast,7152.6714,Obésité sévère,41-50
+23,1,36.67,2,1,northeast,38511.6283,Obésité sévère,18-25
+33,1,22.135,1,0,northeast,5354.07465,Poids normal,31-40
+55,1,26.8,1,0,southwest,35160.13457,Surpoids,51-60
+40,0,35.3,3,0,southwest,7196.867,Obésité sévère,31-40
+63,1,27.74,0,1,northeast,29523.1656,Surpoids,61+
+54,0,30.02,0,0,northwest,24476.47851,Obésité modérée,51-60
+60,1,38.06,0,0,southeast,12648.7034,Obésité sévère,51-60
+24,0,35.86,0,0,southeast,1986.9334,Obésité sévère,18-25
+19,0,20.9,1,0,southwest,1832.094,Poids normal,18-25
+29,0,28.975,1,0,northeast,4040.55825,Surpoids,26-30
+18,0,17.29,2,1,northeast,12829.4551,Insuffisance pondérale,18-25
+63,1,32.2,2,1,southwest,47305.305,Obésité modérée,61+
+54,0,34.21,2,1,southeast,44260.7499,Obésité modérée,51-60
+27,0,30.3,3,0,southwest,4260.744,Obésité modérée,26-30
+50,0,31.825,0,1,northeast,41097.16175,Obésité modérée,41-50
+55,1,25.365,3,0,northeast,13047.33235,Surpoids,51-60
+56,0,33.63,0,1,northwest,43921.1837,Obésité modérée,51-60
+38,1,40.15,0,0,southeast,5400.9805,Obésité morbide,31-40
+51,0,24.415,4,0,northwest,11520.09985,Poids normal,51-60
+19,0,31.92,0,1,northwest,33750.2918,Obésité modérée,18-25
+58,1,25.2,0,0,southwest,11837.16,Surpoids,51-60
+20,1,26.84,1,1,southeast,17085.2676,Surpoids,18-25
+52,0,24.32,3,1,northeast,24869.8368,Poids normal,51-60
+19,0,36.955,0,1,northwest,36219.40545,Obésité sévère,18-25
+53,1,38.06,3,0,southeast,20462.99766,Obésité sévère,51-60
+46,0,42.35,3,1,southeast,46151.1245,Obésité morbide,41-50
+40,0,19.8,1,1,southeast,17179.522,Poids normal,31-40
+59,1,32.395,3,0,northeast,14590.63205,Obésité modérée,51-60
+45,0,30.2,1,0,southwest,7441.053,Obésité modérée,41-50
+49,0,25.84,1,0,northeast,9282.4806,Surpoids,41-50
+18,0,29.37,1,0,southeast,1719.4363,Surpoids,18-25
+50,0,34.2,2,1,southwest,42856.838,Obésité modérée,41-50
+41,0,37.05,2,0,northwest,7265.7025,Obésité sévère,41-50
+50,0,27.455,1,0,northeast,9617.66245,Surpoids,41-50
+25,0,27.55,0,0,northwest,2523.1695,Surpoids,18-25
+47,1,26.6,2,0,northeast,9715.841,Surpoids,41-50
+19,0,20.615,2,0,northwest,2803.69785,Poids normal,18-25
+22,1,24.3,0,0,southwest,2150.469,Poids normal,18-25
+59,0,31.79,2,0,southeast,12928.7911,Obésité modérée,51-60
+51,1,21.56,1,0,southeast,9855.1314,Poids normal,51-60
+40,1,28.12,1,1,northeast,22331.5668,Surpoids,31-40
+54,0,40.565,3,1,northeast,48549.17835,Obésité morbide,51-60
+30,0,27.645,1,0,northeast,4237.12655,Surpoids,26-30
+55,1,32.395,1,0,northeast,11879.10405,Obésité modérée,51-60
+52,1,31.2,0,0,southwest,9625.92,Obésité modérée,51-60
+46,0,26.62,1,0,southeast,7742.1098,Surpoids,41-50
+46,1,48.07,2,0,northeast,9432.9253,Obésité morbide,41-50
+63,1,26.22,0,0,northwest,14256.1928,Surpoids,61+
+59,1,36.765,1,1,northeast,47896.79135,Obésité sévère,51-60
+52,0,26.4,3,0,southeast,25992.82104,Surpoids,51-60
+28,1,33.4,0,0,southwest,3172.018,Obésité modérée,26-30
+29,0,29.64,1,0,northeast,20277.80751,Surpoids,26-30
+25,0,45.54,2,1,southeast,42112.2356,Obésité morbide,18-25
+22,1,28.82,0,0,southeast,2156.7518,Surpoids,18-25
+25,0,26.8,3,0,southwest,3906.127,Surpoids,18-25
+18,0,22.99,0,0,northeast,1704.5681,Poids normal,18-25
+19,0,27.7,0,1,southwest,16297.846,Surpoids,18-25
+47,0,25.41,1,1,southeast,21978.6769,Surpoids,41-50
+31,0,34.39,3,1,northwest,38746.3551,Obésité modérée,31-40
+48,1,28.88,1,0,northwest,9249.4952,Surpoids,41-50
+36,0,27.55,3,0,northeast,6746.7425,Surpoids,31-40
+53,1,22.61,3,1,northeast,24873.3849,Poids normal,51-60
+56,1,37.51,2,0,southeast,12265.5069,Obésité sévère,51-60
+28,1,33.0,2,0,southeast,4349.462,Obésité modérée,26-30
+57,1,38.0,2,0,southwest,12646.207,Obésité sévère,51-60
+29,0,33.345,2,0,northwest,19442.3535,Obésité modérée,26-30
+28,1,27.5,2,0,southwest,20177.67113,Surpoids,26-30
+30,1,33.33,1,0,southeast,4151.0287,Obésité modérée,26-30
+58,0,34.865,0,0,northeast,11944.59435,Obésité modérée,51-60
+41,1,33.06,2,0,northwest,7749.1564,Obésité modérée,41-50
+50,0,26.6,0,0,southwest,8444.474,Surpoids,41-50
+19,1,24.7,0,0,southwest,1737.376,Poids normal,18-25
+43,0,35.97,3,1,southeast,42124.5153,Obésité sévère,41-50
+49,0,35.86,0,0,southeast,8124.4084,Obésité sévère,41-50
+27,1,31.4,0,1,southwest,34838.873,Obésité modérée,26-30
+52,0,33.25,0,0,northeast,9722.7695,Obésité modérée,51-60
+50,0,32.205,0,0,northwest,8835.26495,Obésité modérée,41-50
+54,0,32.775,0,0,northeast,10435.06525,Obésité modérée,51-60
+44,1,27.645,0,0,northwest,7421.19455,Surpoids,41-50
+32,0,37.335,1,0,northeast,4667.60765,Obésité sévère,31-40
+34,0,25.27,1,0,northwest,4894.7533,Surpoids,31-40
+26,1,29.64,4,0,northeast,24671.66334,Surpoids,26-30
+34,0,30.8,0,1,southwest,35491.64,Obésité modérée,31-40
+57,0,40.945,0,0,northeast,11566.30055,Obésité morbide,51-60
+29,0,27.2,0,0,southwest,2866.091,Surpoids,26-30
+40,0,34.105,1,0,northeast,6600.20595,Obésité modérée,31-40
+27,1,23.21,1,0,southeast,3561.8889,Poids normal,26-30
+45,0,36.48,2,1,northwest,42760.5022,Obésité sévère,41-50
+64,1,33.8,1,1,southwest,47928.03,Obésité modérée,61+
+52,0,36.7,0,0,southwest,9144.565,Obésité sévère,51-60
+61,1,36.385,1,1,northeast,48517.56315,Obésité sévère,61+
+52,0,27.36,0,1,northwest,24393.6224,Surpoids,51-60
+61,1,31.16,0,0,northwest,13429.0354,Obésité modérée,61+
+56,1,28.785,0,0,northeast,11658.37915,Surpoids,51-60
+43,1,35.72,2,0,northeast,19144.57652,Obésité sévère,41-50
+64,0,34.5,0,0,southwest,13822.803,Obésité modérée,61+
+60,0,25.74,0,0,southeast,12142.5786,Surpoids,51-60
+62,0,27.55,1,0,northwest,13937.6665,Surpoids,61+
+50,0,32.3,1,1,northeast,41919.097,Obésité modérée,41-50
+46,1,27.72,1,0,southeast,8232.6388,Surpoids,41-50
+24,1,27.6,0,0,southwest,18955.22017,Surpoids,18-25
+62,0,30.02,0,0,northwest,13352.0998,Obésité modérée,61+
+60,1,27.55,0,0,northeast,13217.0945,Surpoids,51-60
+63,0,36.765,0,0,northeast,13981.85035,Obésité sévère,61+
+49,1,41.47,4,0,southeast,10977.2063,Obésité morbide,41-50
+34,1,29.26,3,0,southeast,6184.2994,Surpoids,31-40
+33,0,35.75,2,0,southeast,4889.9995,Obésité sévère,31-40
+46,0,33.345,1,0,northeast,8334.45755,Obésité modérée,41-50
+36,1,29.92,1,0,southeast,5478.0368,Surpoids,31-40
+19,0,27.835,0,0,northwest,1635.73365,Surpoids,18-25
+57,1,23.18,0,0,northwest,11830.6072,Poids normal,51-60
+50,1,25.6,0,0,southwest,8932.084,Surpoids,41-50
+30,1,27.7,0,0,southwest,3554.203,Surpoids,26-30
+33,0,35.245,0,0,northeast,12404.8791,Obésité sévère,31-40
+18,1,38.28,0,0,southeast,14133.03775,Obésité sévère,18-25
+46,0,27.6,0,0,southwest,24603.04837,Surpoids,41-50
+46,0,43.89,3,0,southeast,8944.1151,Obésité morbide,41-50
+47,0,29.83,3,0,northwest,9620.3307,Surpoids,41-50
+23,0,41.91,0,0,southeast,1837.2819,Obésité morbide,18-25
+18,1,20.79,0,0,southeast,1607.5101,Poids normal,18-25
+48,1,32.3,2,0,northeast,10043.249,Obésité modérée,41-50
+35,0,30.5,1,0,southwest,4751.07,Obésité modérée,31-40
+19,1,21.7,0,1,southwest,13844.506,Poids normal,18-25
+21,1,26.4,1,0,southwest,2597.779,Surpoids,18-25
+21,1,21.89,2,0,southeast,3180.5101,Poids normal,18-25
+49,1,30.78,1,0,northeast,9778.3472,Obésité modérée,41-50
+56,1,32.3,3,0,northeast,13430.265,Obésité modérée,51-60
+42,1,24.985,2,0,northwest,8017.06115,Poids normal,41-50
+44,0,32.015,2,0,northwest,8116.26885,Obésité modérée,41-50
+18,0,30.4,3,0,northeast,3481.868,Obésité modérée,18-25
+61,1,21.09,0,0,northwest,13415.0381,Poids normal,61+
+57,1,22.23,0,0,northeast,12029.2867,Poids normal,51-60
+42,1,33.155,1,0,northeast,7639.41745,Obésité modérée,41-50
+26,0,32.9,2,1,southwest,36085.219,Obésité modérée,26-30
+20,0,33.33,0,0,southeast,1391.5287,Obésité modérée,18-25
+23,1,28.31,0,1,northwest,18033.9679,Surpoids,18-25
+39,1,24.89,3,1,northeast,21659.9301,Poids normal,31-40
+24,0,40.15,0,1,southeast,38126.2465,Obésité morbide,18-25
+64,1,30.115,3,0,northwest,16455.70785,Obésité modérée,61+
+62,0,31.46,1,0,southeast,27000.98473,Obésité modérée,61+
+27,1,17.955,2,1,northeast,15006.57945,Insuffisance pondérale,26-30
+55,0,30.685,0,1,northeast,42303.69215,Obésité modérée,51-60
+55,0,33.0,0,0,southeast,20781.48892,Obésité modérée,51-60
+35,1,43.34,2,0,southeast,5846.9176,Obésité morbide,31-40
+44,0,22.135,2,0,northeast,8302.53565,Poids normal,41-50
+19,0,34.4,0,0,southwest,1261.859,Obésité modérée,18-25
+58,1,39.05,0,0,southeast,11856.4115,Obésité sévère,51-60
+50,0,25.365,2,0,northwest,30284.64294,Surpoids,41-50
+26,1,22.61,0,0,northwest,3176.8159,Poids normal,26-30
+24,1,30.21,3,0,northwest,4618.0799,Obésité modérée,18-25
+48,0,35.625,4,0,northeast,10736.87075,Obésité sévère,41-50
+19,1,37.43,0,0,northwest,2138.0707,Obésité sévère,18-25
+48,0,31.445,1,0,northeast,8964.06055,Obésité modérée,41-50
+49,0,31.35,1,0,northeast,9290.1395,Obésité modérée,41-50
+46,1,32.3,2,0,northeast,9411.005,Obésité modérée,41-50
+46,0,19.855,0,0,northwest,7526.70645,Poids normal,41-50
+43,1,34.4,3,0,southwest,8522.003,Obésité modérée,41-50
+21,0,31.02,0,0,southeast,16586.49771,Obésité modérée,18-25
+64,0,25.6,2,0,southwest,14988.432,Surpoids,61+
+18,1,38.17,0,0,southeast,1631.6683,Obésité sévère,18-25
+51,1,20.6,0,0,southwest,9264.797,Poids normal,51-60
+47,0,47.52,1,0,southeast,8083.9198,Obésité morbide,41-50
+64,1,32.965,0,0,northwest,14692.66935,Obésité modérée,61+
+49,0,32.3,3,0,northwest,10269.46,Obésité modérée,41-50
+31,0,20.4,0,0,southwest,3260.199,Poids normal,31-40
+52,1,38.38,2,0,northeast,11396.9002,Obésité sévère,51-60
+33,1,24.31,0,0,southeast,4185.0979,Poids normal,31-40
+47,1,23.6,1,0,southwest,8539.671,Poids normal,41-50
+38,0,21.12,3,0,southeast,6652.5288,Poids normal,31-40
+32,0,30.03,1,0,southeast,4074.4537,Obésité modérée,31-40
+19,0,17.48,0,0,northwest,1621.3402,Insuffisance pondérale,18-25
+44,1,20.235,1,1,northeast,19594.80965,Poids normal,41-50
+26,1,17.195,2,1,northeast,14455.64405,Insuffisance pondérale,26-30
+25,0,23.9,5,0,southwest,5080.096,Poids normal,18-25
+19,1,35.15,0,0,northwest,2134.9015,Obésité sévère,18-25
+43,1,35.64,1,0,southeast,7345.7266,Obésité sévère,41-50
+52,0,34.1,0,0,southeast,9140.951,Obésité modérée,51-60
+36,1,22.6,2,1,southwest,18608.262,Poids normal,31-40
+64,0,39.16,1,0,southeast,14418.2804,Obésité sévère,61+
+63,1,26.98,0,1,northwest,28950.4692,Surpoids,61+
+64,0,33.88,0,1,southeast,46889.2612,Obésité modérée,61+
+61,0,35.86,0,1,southeast,46599.1084,Obésité sévère,61+
+40,0,32.775,1,1,northeast,39125.33225,Obésité modérée,31-40
+25,0,30.59,0,0,northeast,2727.3951,Obésité modérée,18-25
+48,0,30.2,2,0,southwest,8968.33,Obésité modérée,41-50
+45,0,24.31,5,0,southeast,9788.8659,Poids normal,41-50
+38,1,27.265,1,0,northeast,6555.07035,Surpoids,31-40
+18,1,29.165,0,0,northeast,7323.734819,Surpoids,18-25
+21,1,16.815,1,0,northeast,3167.45585,Insuffisance pondérale,18-25
+27,1,30.4,3,0,northwest,18804.7524,Obésité modérée,26-30
+19,0,33.1,0,0,southwest,23082.95533,Obésité modérée,18-25
+29,1,20.235,2,0,northwest,4906.40965,Poids normal,26-30
+42,0,26.9,0,0,southwest,5969.723,Surpoids,41-50
+60,1,30.5,0,0,southwest,12638.195,Obésité modérée,51-60
+31,0,28.595,1,0,northwest,4243.59005,Surpoids,31-40
+60,0,33.11,3,0,southeast,13919.8229,Obésité modérée,51-60
+22,0,31.73,0,0,northeast,2254.7967,Obésité modérée,18-25
+35,0,28.9,3,0,southwest,5926.846,Surpoids,31-40
+52,1,46.75,5,0,southeast,12592.5345,Obésité morbide,51-60
+26,0,29.45,0,0,northeast,2897.3235,Surpoids,26-30
+31,1,32.68,1,0,northwest,4738.2682,Obésité modérée,31-40
+33,1,33.5,0,1,southwest,37079.372,Obésité modérée,31-40
+18,0,43.01,0,0,southeast,1149.3959,Obésité morbide,18-25
+59,1,36.52,1,0,southeast,28287.89766,Obésité sévère,51-60
+56,0,26.695,1,1,northwest,26109.32905,Surpoids,51-60
+45,1,33.1,0,0,southwest,7345.084,Obésité modérée,41-50
+60,0,29.64,0,0,northeast,12730.9996,Surpoids,51-60
+56,1,25.65,0,0,northwest,11454.0215,Surpoids,51-60
+40,1,29.6,0,0,southwest,5910.944,Surpoids,31-40
+35,0,38.6,1,0,southwest,4762.329,Obésité sévère,31-40
+39,0,29.6,4,0,southwest,7512.267,Surpoids,31-40
+30,0,24.13,1,0,northwest,4032.2407,Poids normal,26-30
+24,0,23.4,0,0,southwest,1969.614,Poids normal,18-25
+20,0,29.735,0,0,northwest,1769.53165,Surpoids,18-25
+32,0,46.53,2,0,southeast,4686.3887,Obésité morbide,31-40
+59,0,37.4,0,0,southwest,21797.0004,Obésité sévère,51-60
+55,1,30.14,2,0,southeast,11881.9696,Obésité modérée,51-60
+57,1,30.495,0,0,northwest,11840.77505,Obésité modérée,51-60
+56,0,39.6,0,0,southwest,10601.412,Obésité sévère,51-60
+40,1,33.0,3,0,southeast,7682.67,Obésité modérée,31-40
+49,1,36.63,3,0,southeast,10381.4787,Obésité sévère,41-50
+42,0,30.0,0,1,southwest,22144.032,Surpoids,41-50
+62,1,38.095,2,0,northeast,15230.32405,Obésité sévère,61+
+56,0,25.935,0,0,northeast,11165.41765,Surpoids,51-60
+19,0,25.175,0,0,northwest,1632.03625,Surpoids,18-25
+30,1,28.38,1,1,southeast,19521.9682,Surpoids,26-30
+60,1,28.7,1,0,southwest,13224.693,Surpoids,51-60
+56,1,33.82,2,0,northwest,12643.3778,Obésité modérée,51-60
+28,1,24.32,1,0,northeast,23288.9284,Poids normal,26-30
+18,1,24.09,1,0,southeast,2201.0971,Poids normal,18-25
+27,0,32.67,0,0,southeast,2497.0383,Obésité modérée,26-30
+18,1,30.115,0,0,northeast,2203.47185,Obésité modérée,18-25
+19,1,29.8,0,0,southwest,1744.465,Surpoids,18-25
+47,1,33.345,0,0,northeast,20878.78443,Obésité modérée,41-50
+54,0,25.1,3,1,southwest,25382.297,Surpoids,51-60
+61,0,28.31,1,1,northwest,28868.6639,Surpoids,61+
+24,0,28.5,0,1,northeast,35147.52848,Surpoids,18-25
+25,0,35.625,0,0,northwest,2534.39375,Obésité sévère,18-25
+21,0,36.85,0,0,southeast,1534.3045,Obésité sévère,18-25
+23,0,32.56,0,0,southeast,1824.2854,Obésité modérée,18-25
+63,0,41.325,3,0,northwest,15555.18875,Obésité morbide,61+
+49,0,37.51,2,0,southeast,9304.7019,Obésité sévère,41-50
+18,1,31.35,0,0,southeast,1622.1885,Obésité modérée,18-25
+51,1,39.5,1,0,southwest,9880.068,Obésité sévère,51-60
+48,0,34.3,3,0,southwest,9563.029,Obésité modérée,41-50
+31,1,31.065,0,0,northeast,4347.02335,Obésité modérée,31-40
+54,1,21.47,3,0,northwest,12475.3513,Poids normal,51-60
+19,0,28.7,0,0,southwest,1253.936,Surpoids,18-25
+44,1,38.06,0,1,southeast,48885.13561,Obésité sévère,41-50
+53,0,31.16,1,0,northwest,10461.9794,Obésité modérée,51-60
+19,1,32.9,0,0,southwest,1748.774,Obésité modérée,18-25
+61,1,25.08,0,0,southeast,24513.09126,Surpoids,61+
+18,1,25.08,0,0,northeast,2196.4732,Surpoids,18-25
+61,0,43.4,0,0,southwest,12574.049,Obésité morbide,61+
+21,0,25.7,4,1,southwest,17942.106,Surpoids,18-25
+20,0,27.93,0,0,northeast,1967.0227,Surpoids,18-25
+31,1,23.6,2,0,southwest,4931.647,Poids normal,31-40
+45,0,28.7,2,0,southwest,8027.968,Surpoids,41-50
+44,1,23.98,2,0,southeast,8211.1002,Poids normal,41-50
+62,1,39.2,0,0,southwest,13470.86,Obésité sévère,61+
+29,0,34.4,0,1,southwest,36197.699,Obésité modérée,26-30
+43,0,26.03,0,0,northeast,6837.3687,Surpoids,41-50
+51,0,23.21,1,1,southeast,22218.1149,Poids normal,51-60
+19,0,30.25,0,1,southeast,32548.3405,Obésité modérée,18-25
+38,1,28.93,1,0,southeast,5974.3847,Surpoids,31-40
+37,0,30.875,3,0,northwest,6796.86325,Obésité modérée,31-40
+22,0,31.35,1,0,northwest,2643.2685,Obésité modérée,18-25
+21,0,23.75,2,0,northwest,3077.0955,Poids normal,18-25
+24,1,25.27,0,0,northeast,3044.2133,Surpoids,18-25
+57,1,28.7,0,0,southwest,11455.28,Surpoids,51-60
+56,0,32.11,1,0,northeast,11763.0009,Obésité modérée,51-60
+27,0,33.66,0,0,southeast,2498.4144,Obésité modérée,26-30
+51,0,22.42,0,0,northeast,9361.3268,Poids normal,51-60
+19,0,30.4,0,0,southwest,1256.299,Obésité modérée,18-25
+39,0,28.3,1,1,southwest,21082.16,Surpoids,31-40
+58,0,35.7,0,0,southwest,11362.755,Obésité sévère,51-60
+20,0,35.31,1,0,southeast,27724.28875,Obésité sévère,18-25
+45,0,30.495,2,0,northwest,8413.46305,Obésité modérée,41-50
+35,1,31.0,1,0,southwest,5240.765,Obésité modérée,31-40
+31,0,30.875,0,0,northeast,3857.75925,Obésité modérée,31-40
+50,1,27.36,0,0,northeast,25656.57526,Surpoids,41-50
+32,1,44.22,0,0,southeast,3994.1778,Obésité morbide,31-40
+51,1,33.915,0,0,northeast,9866.30485,Obésité modérée,51-60
+38,1,37.73,0,0,southeast,5397.6167,Obésité sévère,31-40
+42,0,26.07,1,1,southeast,38245.59327,Surpoids,41-50
+18,1,33.88,0,0,southeast,11482.63485,Obésité modérée,18-25
+19,1,30.59,2,0,northwest,24059.68019,Obésité modérée,18-25
+51,1,25.8,1,0,southwest,9861.025,Surpoids,51-60
+46,0,39.425,1,0,northeast,8342.90875,Obésité sévère,41-50
+18,0,25.46,0,0,northeast,1708.0014,Surpoids,18-25
+57,0,42.13,1,1,southeast,48675.5177,Obésité morbide,51-60
+62,1,31.73,0,0,northeast,14043.4767,Obésité modérée,61+
+59,0,29.7,2,0,southeast,12925.886,Surpoids,51-60
+37,0,36.19,0,0,southeast,19214.70553,Obésité sévère,31-40
+64,0,40.48,0,0,southeast,13831.1152,Obésité morbide,61+
+38,0,28.025,1,0,northeast,6067.12675,Surpoids,31-40
+33,1,38.9,3,0,southwest,5972.378,Obésité sévère,31-40
+46,1,30.2,2,0,southwest,8825.086,Obésité modérée,41-50
+46,1,28.05,1,0,southeast,8233.0975,Surpoids,41-50
+53,0,31.35,0,0,southeast,27346.04207,Obésité modérée,51-60
+34,1,38.0,3,0,southwest,6196.448,Obésité sévère,31-40
+20,1,31.79,2,0,southeast,3056.3881,Obésité modérée,18-25
+63,1,36.3,0,0,southeast,13887.204,Obésité sévère,61+
+54,1,47.41,0,1,southeast,63770.42801,Obésité morbide,51-60
+54,0,30.21,0,0,northwest,10231.4999,Obésité modérée,51-60
+49,0,25.84,2,1,northwest,23807.2406,Surpoids,41-50
+28,0,35.435,0,0,northeast,3268.84665,Obésité sévère,26-30
+54,1,46.7,2,0,southwest,11538.421,Obésité morbide,51-60
+25,1,28.595,0,0,northeast,3213.62205,Surpoids,18-25
+43,1,46.2,0,1,southeast,45863.205,Obésité morbide,41-50
+63,0,30.8,0,0,southwest,13390.559,Obésité modérée,61+
+32,1,28.93,0,0,southeast,3972.9247,Surpoids,31-40
+62,0,21.4,0,0,southwest,12957.118,Poids normal,61+
+52,1,31.73,2,0,northwest,11187.6567,Obésité modérée,51-60
+25,1,41.325,0,0,northeast,17878.90068,Obésité morbide,18-25
+28,0,23.8,2,0,southwest,3847.674,Poids normal,26-30
+46,0,33.44,1,0,northeast,8334.5896,Obésité modérée,41-50
+34,0,34.21,0,0,southeast,3935.1799,Obésité modérée,31-40
+35,1,34.105,3,1,northwest,39983.42595,Obésité modérée,31-40
+19,0,35.53,0,0,northwest,1646.4297,Obésité sévère,18-25
+46,1,19.95,2,0,northwest,9193.8385,Poids normal,41-50
+54,1,32.68,0,0,northeast,10923.9332,Obésité modérée,51-60
+27,0,30.5,0,0,southwest,2494.022,Obésité modérée,26-30
+50,0,44.77,1,0,southeast,9058.7303,Obésité morbide,41-50
+18,1,32.12,2,0,southeast,2801.2588,Obésité modérée,18-25
+19,1,30.495,0,0,northwest,2128.43105,Obésité modérée,18-25
+38,1,40.565,1,0,northwest,6373.55735,Obésité morbide,31-40
+41,0,30.59,2,0,northwest,7256.7231,Obésité modérée,41-50
+49,1,31.9,5,0,southwest,11552.904,Obésité modérée,41-50
+48,0,40.565,2,1,northwest,45702.02235,Obésité morbide,41-50
+31,1,29.1,0,0,southwest,3761.292,Surpoids,31-40
+18,1,37.29,1,0,southeast,2219.4451,Obésité sévère,18-25
+30,1,43.12,2,0,southeast,4753.6368,Obésité morbide,26-30
+62,1,36.86,1,0,northeast,31620.00106,Obésité sévère,61+
+57,1,34.295,2,0,northeast,13224.05705,Obésité modérée,51-60
+58,1,27.17,0,0,northwest,12222.8983,Surpoids,51-60
+22,0,26.84,0,0,southeast,1664.9996,Surpoids,18-25
+31,1,38.095,1,1,northeast,58571.07448,Obésité sévère,31-40
+52,0,30.2,1,0,southwest,9724.53,Obésité modérée,51-60
+25,1,23.465,0,0,northeast,3206.49135,Poids normal,18-25
+59,0,25.46,1,0,northeast,12913.9924,Surpoids,51-60
+39,0,45.43,2,0,southeast,6356.2707,Obésité morbide,31-40
+32,1,23.65,1,0,southeast,17626.23951,Poids normal,31-40
+19,0,20.7,0,0,southwest,1242.816,Poids normal,18-25
+33,1,28.27,1,0,southeast,4779.6023,Surpoids,31-40
+21,0,20.235,3,0,northeast,3861.20965,Poids normal,18-25
+34,1,30.21,1,1,northwest,43943.8761,Obésité modérée,31-40
+61,1,35.91,0,0,northeast,13635.6379,Obésité sévère,61+
+38,1,30.69,1,0,southeast,5976.8311,Obésité modérée,31-40
+58,1,29.0,0,0,southwest,11842.442,Surpoids,51-60
+47,0,19.57,1,0,northwest,8428.0693,Poids normal,41-50
+20,0,31.13,2,0,southeast,2566.4707,Obésité modérée,18-25
+21,1,21.85,1,1,northeast,15359.1045,Poids normal,18-25
+41,0,40.26,0,0,southeast,5709.1644,Obésité morbide,41-50
+46,1,33.725,1,0,northeast,8823.98575,Obésité modérée,41-50
+42,1,29.48,2,0,southeast,7640.3092,Surpoids,41-50
+34,1,33.25,1,0,northeast,5594.8455,Obésité modérée,31-40
+43,0,32.6,2,0,southwest,7441.501,Obésité modérée,41-50
+52,1,37.525,2,0,northwest,33471.97189,Obésité sévère,51-60
+18,1,39.16,0,0,southeast,1633.0444,Obésité sévère,18-25
+51,0,31.635,0,0,northwest,9174.13565,Obésité modérée,51-60
+56,1,25.3,0,0,southwest,11070.535,Surpoids,51-60
+64,1,39.05,3,0,southeast,16085.1275,Obésité sévère,61+
+19,1,28.31,0,1,northwest,17468.9839,Surpoids,18-25
+51,1,34.1,0,0,southeast,9283.562,Obésité modérée,51-60
+27,1,25.175,0,0,northeast,3558.62025,Surpoids,26-30
+59,1,23.655,0,1,northwest,25678.77845,Poids normal,51-60
+28,0,26.98,2,0,northeast,4435.0942,Surpoids,26-30
+30,0,37.8,2,1,southwest,39241.442,Obésité sévère,26-30
+47,1,29.37,1,0,southeast,8547.6913,Surpoids,41-50
+38,1,34.8,2,0,southwest,6571.544,Obésité modérée,31-40
+18,1,33.155,0,0,northeast,2207.69745,Obésité modérée,18-25
+34,1,19.0,3,0,northeast,6753.038,Poids normal,31-40
+20,1,33.0,0,0,southeast,1880.07,Obésité modérée,18-25
+47,1,36.63,1,1,southeast,42969.8527,Obésité sévère,41-50
+56,1,28.595,0,0,northeast,11658.11505,Surpoids,51-60
+49,0,25.6,2,1,southwest,23306.547,Surpoids,41-50
+19,1,33.11,0,1,southeast,34439.8559,Obésité modérée,18-25
+55,1,37.1,0,0,southwest,10713.644,Obésité sévère,51-60
+30,0,31.4,1,0,southwest,3659.346,Obésité modérée,26-30
+37,0,34.1,4,1,southwest,40182.246,Obésité modérée,31-40
+49,1,21.3,1,0,southwest,9182.17,Poids normal,41-50
+18,0,33.535,0,1,northeast,34617.84065,Obésité modérée,18-25
+59,0,28.785,0,0,northwest,12129.61415,Surpoids,51-60
+29,1,26.03,0,0,northwest,3736.4647,Surpoids,26-30
+36,0,28.88,3,0,northeast,6748.5912,Surpoids,31-40
+33,0,42.46,1,0,southeast,11326.71487,Obésité morbide,31-40
+58,0,38.0,0,0,southwest,11365.952,Obésité sévère,51-60
+44,1,38.95,0,1,northwest,42983.4585,Obésité sévère,41-50
+53,0,36.1,1,0,southwest,10085.846,Obésité sévère,51-60
+24,0,29.3,0,0,southwest,1977.815,Surpoids,18-25
+29,1,35.53,0,0,southeast,3366.6697,Obésité sévère,26-30
+40,0,22.705,2,0,northeast,7173.35995,Poids normal,31-40
+51,0,39.7,1,0,southwest,9391.346,Obésité sévère,51-60
+64,0,38.19,0,0,northeast,14410.9321,Obésité sévère,61+
+19,1,24.51,1,0,northwest,2709.1119,Poids normal,18-25
+35,1,38.095,2,0,northeast,24915.04626,Obésité sévère,31-40
+39,0,26.41,0,1,northeast,20149.3229,Surpoids,31-40
+56,0,33.66,4,0,southeast,12949.1554,Obésité modérée,51-60
+33,0,42.4,5,0,southwest,6666.243,Obésité morbide,31-40
+42,0,28.31,3,1,northwest,32787.45859,Surpoids,41-50
+61,0,33.915,0,0,northeast,13143.86485,Obésité modérée,61+
+23,1,34.96,3,0,northwest,4466.6214,Obésité modérée,18-25
+43,0,35.31,2,0,southeast,18806.14547,Obésité sévère,41-50
+48,0,30.78,3,0,northeast,10141.1362,Obésité modérée,41-50
+39,0,26.22,1,0,northwest,6123.5688,Surpoids,31-40
+40,1,23.37,3,0,northeast,8252.2843,Poids normal,31-40
+18,0,28.5,0,0,northeast,1712.227,Surpoids,18-25
+58,1,32.965,0,0,northeast,12430.95335,Obésité modérée,51-60
+49,1,42.68,2,0,southeast,9800.8882,Obésité morbide,41-50
+53,1,39.6,1,0,southeast,10579.711,Obésité sévère,51-60
+48,1,31.13,0,0,southeast,8280.6227,Obésité modérée,41-50
+45,1,36.3,2,0,southeast,8527.532,Obésité sévère,41-50
+59,1,35.2,0,0,southeast,12244.531,Obésité sévère,51-60
+52,1,25.3,2,1,southeast,24667.419,Surpoids,51-60
+26,1,42.4,1,0,southwest,3410.324,Obésité morbide,26-30
+27,0,33.155,2,0,northwest,4058.71245,Obésité modérée,26-30
+48,1,35.91,1,0,northeast,26392.26029,Obésité sévère,41-50
+57,1,28.785,4,0,northeast,14394.39815,Surpoids,51-60
+37,0,46.53,3,0,southeast,6435.6237,Obésité morbide,31-40
+57,1,23.98,1,0,southeast,22192.43711,Poids normal,51-60
+32,1,31.54,1,0,northeast,5148.5526,Obésité modérée,31-40
+18,0,33.66,0,0,southeast,1136.3994,Obésité modérée,18-25
+64,1,22.99,0,1,southeast,27037.9141,Poids normal,61+
+43,0,38.06,2,1,southeast,42560.4304,Obésité sévère,41-50
+49,0,28.7,1,0,southwest,8703.456,Surpoids,41-50
+40,1,32.775,2,1,northwest,40003.33225,Obésité modérée,31-40
+62,0,32.015,0,1,northeast,45710.20785,Obésité modérée,61+
+40,1,29.81,1,0,southeast,6500.2359,Surpoids,31-40
+30,0,31.57,3,0,southeast,4837.5823,Obésité modérée,26-30
+29,1,31.16,0,0,northeast,3943.5954,Obésité modérée,26-30
+36,0,29.7,0,0,southeast,4399.731,Surpoids,31-40
+41,1,31.02,0,0,southeast,6185.3208,Obésité modérée,41-50
+44,1,43.89,2,1,southeast,46200.9851,Obésité morbide,41-50
+45,0,21.375,0,0,northwest,7222.78625,Poids normal,41-50
+55,1,40.81,3,0,southeast,12485.8009,Obésité morbide,51-60
+60,0,31.35,3,1,northwest,46130.5265,Obésité modérée,51-60
+56,0,36.1,3,0,southwest,12363.547,Obésité sévère,51-60
+49,1,23.18,2,0,northwest,10156.7832,Poids normal,41-50
+21,1,17.4,1,0,southwest,2585.269,Insuffisance pondérale,18-25
+19,0,20.3,0,0,southwest,1242.26,Poids normal,18-25
+39,0,35.3,2,1,southwest,40103.89,Obésité sévère,31-40
+53,0,24.32,0,0,northwest,9863.4718,Poids normal,51-60
+33,1,18.5,1,0,southwest,4766.022,Insuffisance pondérale,31-40
+53,0,26.41,2,0,northeast,11244.3769,Surpoids,51-60
+42,0,26.125,2,0,northeast,7729.64575,Surpoids,41-50
+40,0,41.69,0,0,southeast,5438.7491,Obésité morbide,31-40
+47,1,24.1,1,0,southwest,26236.57997,Poids normal,41-50
+27,0,31.13,1,1,southeast,34806.4677,Obésité modérée,26-30
+21,0,27.36,0,0,northeast,2104.1134,Surpoids,18-25
+47,0,36.2,1,0,southwest,8068.185,Obésité sévère,41-50
+20,0,32.395,1,0,northwest,2362.22905,Obésité modérée,18-25
+24,0,23.655,0,0,northwest,2352.96845,Poids normal,18-25
+27,1,34.8,1,0,southwest,3577.999,Obésité modérée,26-30
+26,1,40.185,0,0,northwest,3201.24515,Obésité morbide,26-30
+53,1,32.3,2,0,northeast,29186.48236,Obésité modérée,51-60
+41,0,35.75,1,1,southeast,40273.6455,Obésité sévère,41-50
+56,0,33.725,0,0,northwest,10976.24575,Obésité modérée,51-60
+23,1,39.27,2,0,southeast,3500.6123,Obésité sévère,18-25
+21,1,34.87,0,0,southeast,2020.5523,Obésité modérée,18-25
+50,1,44.745,0,0,northeast,9541.69555,Obésité morbide,41-50
+53,0,41.47,0,0,southeast,9504.3103,Obésité morbide,51-60
+34,1,26.41,1,0,northwest,5385.3379,Surpoids,31-40
+47,1,29.545,1,0,northwest,8930.93455,Surpoids,41-50
+33,1,32.9,2,0,southwest,5375.038,Obésité modérée,31-40
+51,1,38.06,0,1,southeast,44400.4064,Obésité sévère,51-60
+49,0,28.69,3,0,northwest,10264.4421,Surpoids,41-50
+31,1,30.495,3,0,northeast,6113.23105,Obésité modérée,31-40
+36,1,27.74,0,0,northeast,5469.0066,Surpoids,31-40
+18,0,35.2,1,0,southeast,1727.54,Obésité sévère,18-25
+50,1,23.54,2,0,southeast,10107.2206,Poids normal,41-50
+43,1,30.685,2,0,northwest,8310.83915,Obésité modérée,41-50
+20,0,40.47,0,0,northeast,1984.4533,Obésité morbide,18-25
+24,1,22.6,0,0,southwest,2457.502,Poids normal,18-25
+60,0,28.9,0,0,southwest,12146.971,Surpoids,51-60
+49,1,22.61,1,0,northwest,9566.9909,Poids normal,41-50
+60,0,24.32,1,0,northwest,13112.6048,Poids normal,51-60
+51,1,36.67,2,0,northwest,10848.1343,Obésité sévère,51-60
+58,1,33.44,0,0,northwest,12231.6136,Obésité modérée,51-60
+51,1,40.66,0,0,northeast,9875.6804,Obésité morbide,51-60
+53,0,36.6,3,0,southwest,11264.541,Obésité sévère,51-60
+62,0,37.4,0,0,southwest,12979.358,Obésité sévère,61+
+19,0,35.4,0,0,southwest,1263.249,Obésité sévère,18-25
+50,1,27.075,1,0,northeast,10106.13425,Surpoids,41-50
+30,1,39.05,3,1,southeast,40932.4295,Obésité sévère,26-30
+41,0,28.405,1,0,northwest,6664.68595,Surpoids,41-50
+29,1,21.755,1,1,northeast,16657.71745,Poids normal,26-30
+18,1,40.28,0,0,northeast,2217.6012,Obésité morbide,18-25
+41,1,36.08,1,0,southeast,6781.3542,Obésité sévère,41-50
+35,0,24.42,3,1,southeast,19361.9988,Poids normal,31-40
+53,0,21.4,1,0,southwest,10065.413,Poids normal,51-60
+24,1,30.1,3,0,southwest,4234.927,Obésité modérée,18-25
+48,1,27.265,1,0,northeast,9447.25035,Surpoids,41-50
+59,1,32.1,3,0,southwest,14007.222,Obésité modérée,51-60
+49,1,34.77,1,0,northwest,9583.8933,Obésité modérée,41-50
+37,1,38.39,0,1,southeast,40419.0191,Obésité sévère,31-40
+26,0,23.7,2,0,southwest,3484.331,Poids normal,26-30
+23,0,31.73,3,1,northeast,36189.1017,Obésité modérée,18-25
+29,0,35.5,2,1,southwest,44585.45587,Obésité sévère,26-30
+45,0,24.035,2,0,northeast,8604.48365,Poids normal,41-50
+27,0,29.15,0,1,southeast,18246.4955,Surpoids,26-30
+53,0,34.105,0,1,northeast,43254.41795,Obésité modérée,51-60
+31,1,26.62,0,0,southeast,3757.8448,Surpoids,31-40
+50,0,26.41,0,0,northwest,8827.2099,Surpoids,41-50
+50,1,30.115,1,0,northwest,9910.35985,Obésité modérée,41-50
+34,0,27.0,2,0,southwest,11737.84884,Surpoids,31-40
+19,0,21.755,0,0,northwest,1627.28245,Poids normal,18-25
+47,1,36.0,1,0,southwest,8556.907,Obésité sévère,41-50
+28,0,30.875,0,0,northwest,3062.50825,Obésité modérée,26-30
+37,1,26.4,0,1,southeast,19539.243,Surpoids,31-40
+21,0,28.975,0,0,northwest,1906.35825,Surpoids,18-25
+64,0,37.905,0,0,northwest,14210.53595,Obésité sévère,61+
+58,1,22.77,0,0,southeast,11833.7823,Poids normal,51-60
+24,0,33.63,4,0,northeast,17128.42608,Obésité modérée,18-25
+31,0,27.645,2,0,northeast,5031.26955,Surpoids,31-40
+39,1,22.8,3,0,northeast,7985.815,Poids normal,31-40
+47,1,27.83,0,1,southeast,23065.4207,Surpoids,41-50
+30,0,37.43,3,0,northeast,5428.7277,Obésité sévère,26-30
+18,0,38.17,0,1,southeast,36307.7983,Obésité sévère,18-25
+22,1,34.58,2,0,northeast,3925.7582,Obésité modérée,18-25
+23,0,35.2,1,0,southwest,2416.955,Obésité sévère,18-25
+33,0,27.1,1,1,southwest,19040.876,Surpoids,31-40
+27,0,26.03,0,0,northeast,3070.8087,Surpoids,26-30
+45,1,25.175,2,0,northeast,9095.06825,Surpoids,41-50
+57,1,31.825,0,0,northwest,11842.62375,Obésité modérée,51-60
+47,0,32.3,1,0,southwest,8062.764,Obésité modérée,41-50
+42,1,29.0,1,0,southwest,7050.642,Surpoids,41-50
+64,1,39.7,0,0,southwest,14319.031,Obésité sévère,61+
+38,1,19.475,2,0,northwest,6933.24225,Poids normal,31-40
+61,0,36.1,3,0,southwest,27941.28758,Obésité sévère,61+
+53,1,26.7,2,0,southwest,11150.78,Surpoids,51-60
+44,1,36.48,0,0,northeast,12797.20962,Obésité sévère,41-50
+19,1,28.88,0,1,northwest,17748.5062,Surpoids,18-25
+41,0,34.2,2,0,northwest,7261.741,Obésité modérée,41-50
+51,0,33.33,3,0,southeast,10560.4917,Obésité modérée,51-60
+40,0,32.3,2,0,northwest,6986.697,Obésité modérée,31-40
+45,0,39.805,0,0,northeast,7448.40395,Obésité sévère,41-50
+35,0,34.32,3,0,southeast,5934.3798,Obésité modérée,31-40
+53,0,28.88,0,0,northwest,9869.8102,Surpoids,51-60
+30,0,24.4,3,1,southwest,18259.216,Poids normal,26-30
+18,0,41.14,0,0,southeast,1146.7966,Obésité morbide,18-25
+51,0,35.97,1,0,southeast,9386.1613,Obésité sévère,51-60
+50,1,27.6,1,1,southwest,24520.264,Surpoids,41-50
+31,1,29.26,1,0,southeast,4350.5144,Surpoids,31-40
+35,1,27.7,3,0,southwest,6414.178,Surpoids,31-40
+60,0,36.955,0,0,northeast,12741.16745,Obésité sévère,51-60
+21,0,36.86,0,0,northwest,1917.3184,Obésité sévère,18-25
+29,0,22.515,3,0,northeast,5209.57885,Poids normal,26-30
+62,1,29.92,0,0,southeast,13457.9608,Surpoids,61+
+39,1,41.8,0,0,southeast,5662.225,Obésité morbide,31-40
+19,0,27.6,0,0,southwest,1252.407,Surpoids,18-25
+22,1,23.18,0,0,northeast,2731.9122,Poids normal,18-25
+53,0,20.9,0,1,southeast,21195.818,Poids normal,51-60
+39,1,31.92,2,0,northwest,7209.4918,Obésité modérée,31-40
+27,0,28.5,0,1,northwest,18310.742,Surpoids,26-30
+30,0,44.22,2,0,southeast,4266.1658,Obésité morbide,26-30
+30,1,22.895,1,0,northeast,4719.52405,Poids normal,26-30
+58,1,33.1,0,0,southwest,11848.141,Obésité modérée,51-60
+33,0,24.795,0,1,northeast,17904.52705,Poids normal,31-40
+42,1,26.18,1,0,southeast,7046.7222,Surpoids,41-50
+64,1,35.97,0,0,southeast,14313.8463,Obésité sévère,61+
+21,0,22.3,1,0,southwest,2103.08,Poids normal,18-25
+18,1,42.24,0,1,southeast,38792.6856,Obésité morbide,18-25
+23,0,26.51,0,0,southeast,1815.8759,Surpoids,18-25
+45,1,35.815,0,0,northwest,7731.85785,Obésité sévère,41-50
+40,1,41.42,1,0,northwest,28476.73499,Obésité morbide,31-40
+19,1,36.575,0,0,northwest,2136.88225,Obésité sévère,18-25
+18,0,30.14,0,0,southeast,1131.5066,Obésité modérée,18-25
+25,0,25.84,1,0,northeast,3309.7926,Surpoids,18-25
+46,1,30.8,3,0,southwest,9414.92,Obésité modérée,41-50
+33,1,42.94,3,0,northwest,6360.9936,Obésité morbide,31-40
+54,0,21.01,2,0,southeast,11013.7119,Poids normal,51-60
+28,0,22.515,2,0,northeast,4428.88785,Poids normal,26-30
+36,0,34.43,2,0,southeast,5584.3057,Obésité modérée,31-40
+20,1,31.46,0,0,southeast,1877.9294,Obésité modérée,18-25
+24,1,24.225,0,0,northwest,2842.76075,Poids normal,18-25
+23,0,37.1,3,0,southwest,3597.596,Obésité sévère,18-25
+47,1,26.125,1,1,northeast,23401.30575,Surpoids,41-50
+33,1,35.53,0,1,northwest,55135.40209,Obésité sévère,31-40
+45,0,33.7,1,0,southwest,7445.918,Obésité modérée,41-50
+26,0,17.67,0,0,northwest,2680.9493,Insuffisance pondérale,26-30
+18,1,31.13,0,0,southeast,1621.8827,Obésité modérée,18-25
+44,1,29.81,2,0,southeast,8219.2039,Surpoids,41-50
+60,0,24.32,0,0,northwest,12523.6048,Poids normal,51-60
+64,1,31.825,2,0,northeast,16069.08475,Obésité modérée,61+
+56,0,31.79,2,1,southeast,43813.8661,Obésité modérée,51-60
+36,0,28.025,1,1,northeast,20773.62775,Surpoids,31-40
+41,0,30.78,3,1,northeast,39597.4072,Obésité modérée,41-50
+39,0,21.85,1,0,northwest,6117.4945,Poids normal,31-40
+63,0,33.1,0,0,southwest,13393.756,Obésité modérée,61+
+36,1,25.84,0,0,northwest,5266.3656,Surpoids,31-40
+28,1,23.845,2,0,northwest,4719.73655,Poids normal,26-30
+58,0,34.39,0,0,northwest,11743.9341,Obésité modérée,51-60
+36,0,33.82,1,0,northwest,5377.4578,Obésité modérée,31-40
+42,0,35.97,2,0,southeast,7160.3303,Obésité sévère,41-50
+36,0,31.5,0,0,southwest,4402.233,Obésité modérée,31-40
+56,1,28.31,0,0,northeast,11657.7189,Surpoids,51-60
+35,1,23.465,2,0,northeast,6402.29135,Poids normal,31-40
+59,1,31.35,0,0,northwest,12622.1795,Obésité modérée,51-60
+21,0,31.1,0,0,southwest,1526.312,Obésité modérée,18-25
+59,0,24.7,0,0,northeast,12323.936,Poids normal,51-60
+23,1,32.78,2,1,southeast,36021.0112,Obésité modérée,18-25
+57,1,29.81,0,1,southeast,27533.9129,Surpoids,51-60
+53,0,30.495,0,0,northeast,10072.05505,Obésité modérée,51-60
+60,1,32.45,0,1,southeast,45008.9555,Obésité modérée,51-60
+51,1,34.2,1,0,southwest,9872.701,Obésité modérée,51-60
+23,0,50.38,1,0,southeast,2438.0552,Obésité morbide,18-25
+27,1,24.1,0,0,southwest,2974.126,Poids normal,26-30
+55,0,32.775,0,0,northwest,10601.63225,Obésité modérée,51-60
+37,1,30.78,0,1,northeast,37270.1512,Obésité modérée,31-40
+61,0,32.3,2,0,northwest,14119.62,Obésité modérée,61+
+46,1,35.53,0,1,northeast,42111.6647,Obésité sévère,41-50
+53,1,23.75,2,0,northeast,11729.6795,Poids normal,51-60
+49,1,23.845,3,1,northeast,24106.91255,Poids normal,41-50
+20,1,29.6,0,0,southwest,1875.344,Surpoids,18-25
+48,1,33.11,0,1,southeast,40974.1649,Obésité modérée,41-50
+25,0,24.13,0,1,northwest,15817.9857,Poids normal,18-25
+25,1,32.23,1,0,southeast,18218.16139,Obésité modérée,18-25
+57,0,28.1,0,0,southwest,10965.446,Surpoids,51-60
+37,1,47.6,2,1,southwest,46113.511,Obésité morbide,31-40
+38,1,28.0,3,0,southwest,7151.092,Surpoids,31-40
+55,1,33.535,2,0,northwest,12269.68865,Obésité modérée,51-60
+36,1,19.855,0,0,northeast,5458.04645,Poids normal,31-40
+51,0,25.4,0,0,southwest,8782.469,Surpoids,51-60
+40,0,29.9,2,0,southwest,6600.361,Surpoids,31-40
+18,0,37.29,0,0,southeast,1141.4451,Obésité sévère,18-25
+57,0,43.7,1,0,southwest,11576.13,Obésité morbide,51-60
+61,0,23.655,0,0,northeast,13129.60345,Poids normal,61+
+25,1,24.3,3,0,southwest,4391.652,Poids normal,18-25
+50,0,36.2,0,0,southwest,8457.818,Obésité sévère,41-50
+26,1,29.48,1,0,southeast,3392.3652,Surpoids,26-30
+42,0,24.86,0,0,southeast,5966.8874,Poids normal,41-50
+43,0,30.1,1,0,southwest,6849.026,Obésité modérée,41-50
+44,0,21.85,3,0,northeast,8891.1395,Poids normal,41-50
+23,1,28.12,0,0,northwest,2690.1138,Surpoids,18-25
+49,1,27.1,1,0,southwest,26140.3603,Surpoids,41-50
+33,0,33.44,5,0,southeast,6653.7886,Obésité modérée,31-40
+41,0,28.8,1,0,southwest,6282.235,Surpoids,41-50
+37,1,29.5,2,0,southwest,6311.952,Surpoids,31-40
+22,0,34.8,3,0,southwest,3443.064,Obésité modérée,18-25
+23,0,27.36,1,0,northwest,2789.0574,Surpoids,18-25
+21,1,22.135,0,0,northeast,2585.85065,Poids normal,18-25
+51,1,37.05,3,1,northeast,46255.1125,Obésité sévère,51-60
+25,0,26.695,4,0,northwest,4877.98105,Surpoids,18-25
+32,0,28.93,1,1,southeast,19719.6947,Surpoids,31-40
+57,0,28.975,0,1,northeast,27218.43725,Surpoids,51-60
+36,1,30.02,0,0,northwest,5272.1758,Obésité modérée,31-40
+22,0,39.5,0,0,southwest,1682.597,Obésité sévère,18-25
+57,0,33.63,1,0,northwest,11945.1327,Obésité modérée,51-60
+64,1,26.885,0,1,northwest,29330.98315,Surpoids,61+
+36,1,29.04,4,0,southeast,7243.8136,Surpoids,31-40
+54,0,24.035,0,0,northeast,10422.91665,Poids normal,51-60
+47,0,38.94,2,1,southeast,44202.6536,Obésité sévère,41-50
+62,0,32.11,0,0,northeast,13555.0049,Obésité modérée,61+
+61,1,44.0,0,0,southwest,13063.883,Obésité morbide,61+
+43,1,20.045,2,1,northeast,19798.05455,Poids normal,41-50
+19,0,25.555,1,0,northwest,2221.56445,Surpoids,18-25
+18,1,40.26,0,0,southeast,1634.5734,Obésité morbide,18-25
+19,1,22.515,0,0,northwest,2117.33885,Poids normal,18-25
+49,0,22.515,0,0,northeast,8688.85885,Poids normal,41-50
+60,0,40.92,0,1,southeast,48673.5588,Obésité morbide,51-60
+26,0,27.265,3,0,northeast,4661.28635,Surpoids,26-30
+49,0,36.85,0,0,southeast,8125.7845,Obésité sévère,41-50
+60,1,35.1,0,0,southwest,12644.589,Obésité sévère,51-60
+26,1,29.355,2,0,northeast,4564.19145,Surpoids,26-30
+27,0,32.585,3,0,northeast,4846.92015,Obésité modérée,26-30
+44,1,32.34,1,0,southeast,7633.7206,Obésité modérée,41-50
+63,0,39.8,3,0,southwest,15170.069,Obésité sévère,61+
+32,1,24.6,0,1,southwest,17496.306,Poids normal,31-40
+22,0,28.31,1,0,northwest,2639.0429,Surpoids,18-25
+18,0,31.73,0,1,northeast,33732.6867,Obésité modérée,18-25
+59,1,26.695,3,0,northwest,14382.70905,Surpoids,51-60
+44,1,27.5,1,0,southwest,7626.993,Surpoids,41-50
+33,0,24.605,2,0,northwest,5257.50795,Poids normal,31-40
+24,1,33.99,0,0,southeast,2473.3341,Obésité modérée,18-25
+43,1,26.885,0,1,northwest,21774.32215,Surpoids,41-50
+45,0,22.895,0,1,northeast,35069.37452,Poids normal,41-50
+61,1,28.2,0,0,southwest,13041.921,Surpoids,61+
+35,1,34.21,1,0,southeast,5245.2269,Obésité modérée,31-40
+62,1,25.0,0,0,southwest,13451.122,Poids normal,61+
+62,1,33.2,0,0,southwest,13462.52,Obésité modérée,61+
+38,0,31.0,1,0,southwest,5488.262,Obésité modérée,31-40
+34,0,35.815,0,0,northwest,4320.41085,Obésité sévère,31-40
+43,0,23.2,0,0,southwest,6250.435,Poids normal,41-50
+50,0,32.11,2,0,northeast,25333.33284,Obésité modérée,41-50
+19,1,23.4,2,0,southwest,2913.569,Poids normal,18-25
+57,1,20.1,1,0,southwest,12032.326,Poids normal,51-60
+62,1,39.16,0,0,southeast,13470.8044,Obésité sévère,61+
+41,0,34.21,1,0,southeast,6289.7549,Obésité modérée,41-50
+26,0,46.53,1,0,southeast,2927.0647,Obésité morbide,26-30
+39,1,32.5,1,0,southwest,6238.298,Obésité modérée,31-40
+46,0,25.8,5,0,southwest,10096.97,Surpoids,41-50
+45,1,35.3,0,0,southwest,7348.142,Obésité sévère,41-50
+32,0,37.18,2,0,southeast,4673.3922,Obésité sévère,31-40
+59,1,27.5,0,0,southwest,12233.828,Surpoids,51-60
+44,0,29.735,2,0,northeast,32108.66282,Surpoids,41-50
+39,1,24.225,5,0,northwest,8965.79575,Poids normal,31-40
+18,0,26.18,2,0,southeast,2304.0022,Surpoids,18-25
+53,0,29.48,0,0,southeast,9487.6442,Surpoids,51-60
+18,0,23.21,0,0,southeast,1121.8739,Poids normal,18-25
+50,1,46.09,1,0,southeast,9549.5651,Obésité morbide,41-50
+18,1,40.185,0,0,northeast,2217.46915,Obésité morbide,18-25
+19,0,22.61,0,0,northwest,1628.4709,Poids normal,18-25
+62,0,39.93,0,0,southeast,12982.8747,Obésité sévère,61+
+56,1,35.8,1,0,southwest,11674.13,Obésité sévère,51-60
+42,0,35.8,2,0,southwest,7160.094,Obésité sévère,41-50
+37,0,34.2,1,1,northeast,39047.285,Obésité modérée,31-40
+42,0,31.255,0,0,northwest,6358.77645,Obésité modérée,41-50
+25,0,29.7,3,1,southwest,19933.458,Surpoids,18-25
+57,0,18.335,0,0,northeast,11534.87265,Insuffisance pondérale,51-60
+51,0,42.9,2,1,southeast,47462.894,Obésité morbide,51-60
+30,1,28.405,1,0,northwest,4527.18295,Surpoids,26-30
+44,0,30.2,2,1,southwest,38998.546,Obésité modérée,41-50
+34,0,27.835,1,1,northwest,20009.63365,Surpoids,31-40
+31,0,39.49,1,0,southeast,3875.7341,Obésité sévère,31-40
+54,0,30.8,1,1,southeast,41999.52,Obésité modérée,51-60
+24,0,26.79,1,0,northwest,12609.88702,Surpoids,18-25
+43,0,34.96,1,1,northeast,41034.2214,Obésité modérée,41-50
+48,0,36.67,1,0,northwest,28468.91901,Obésité sévère,41-50
+19,1,39.615,1,0,northwest,2730.10785,Obésité sévère,18-25
+29,1,25.9,0,0,southwest,3353.284,Surpoids,26-30
+63,1,35.2,1,0,southeast,14474.675,Obésité sévère,61+
+46,0,24.795,3,0,northeast,9500.57305,Poids normal,41-50
+52,0,36.765,2,0,northwest,26467.09737,Obésité sévère,51-60
+35,0,27.1,1,0,southwest,4746.344,Surpoids,31-40
+51,0,24.795,2,1,northwest,23967.38305,Poids normal,51-60
+44,0,25.365,1,0,northwest,7518.02535,Surpoids,41-50
+21,0,25.745,2,0,northeast,3279.86855,Surpoids,18-25
+39,1,34.32,5,0,southeast,8596.8278,Obésité modérée,31-40
+50,1,28.16,3,0,southeast,10702.6424,Surpoids,41-50
+34,1,23.56,0,0,northeast,4992.3764,Poids normal,31-40
+22,1,20.235,0,0,northwest,2527.81865,Poids normal,18-25
+19,1,40.5,0,0,southwest,1759.338,Obésité morbide,18-25
+26,0,35.42,0,0,southeast,2322.6218,Obésité sévère,26-30
+29,0,22.895,0,1,northeast,16138.76205,Poids normal,26-30
+48,0,40.15,0,0,southeast,7804.1605,Obésité morbide,41-50
+26,0,29.15,1,0,southeast,2902.9065,Surpoids,26-30
+45,1,39.995,3,0,northeast,9704.66805,Obésité sévère,41-50
+36,1,29.92,0,0,southeast,4889.0368,Surpoids,31-40
+54,0,25.46,1,0,northeast,25517.11363,Surpoids,51-60
+34,0,21.375,0,0,northeast,4500.33925,Poids normal,31-40
+31,0,25.9,3,1,southwest,19199.944,Surpoids,31-40
+27,1,30.59,1,0,northeast,16796.41194,Obésité modérée,26-30
+20,0,30.115,5,0,northeast,4915.05985,Obésité modérée,18-25
+44,1,25.8,1,0,southwest,7624.63,Surpoids,41-50
+43,0,30.115,3,0,northwest,8410.04685,Obésité modérée,41-50
+45,1,27.645,1,0,northwest,28340.18885,Surpoids,41-50
+34,0,34.675,0,0,northeast,4518.82625,Obésité modérée,31-40
+24,1,20.52,0,1,northeast,14571.8908,Poids normal,18-25
+26,1,19.8,1,0,southwest,3378.91,Poids normal,26-30
+38,1,27.835,2,0,northeast,7144.86265,Surpoids,31-40
+50,1,31.6,2,0,southwest,10118.424,Obésité modérée,41-50
+38,0,28.27,1,0,southeast,5484.4673,Surpoids,31-40
+27,1,20.045,3,1,northwest,16420.49455,Poids normal,26-30
+39,1,23.275,3,0,northeast,7986.47525,Poids normal,31-40
+39,1,34.1,3,0,southwest,7418.522,Obésité modérée,31-40
+63,1,36.85,0,0,southeast,13887.9685,Obésité sévère,61+
+33,1,36.29,3,0,northeast,6551.7501,Obésité sévère,31-40
+36,1,26.885,0,0,northwest,5267.81815,Surpoids,31-40
+30,0,22.99,2,1,northwest,17361.7661,Poids normal,26-30
+24,0,32.7,0,1,southwest,34472.841,Obésité modérée,18-25
+24,0,25.8,0,0,southwest,1972.95,Surpoids,18-25
+48,0,29.6,0,0,southwest,21232.18226,Surpoids,41-50
+47,0,19.19,1,0,northeast,8627.5411,Poids normal,41-50
+29,0,31.73,2,0,northwest,4433.3877,Obésité modérée,26-30
+28,0,29.26,2,0,northeast,4438.2634,Surpoids,26-30
+47,0,28.215,3,1,northwest,24915.22085,Surpoids,41-50
+25,0,24.985,2,0,northeast,23241.47453,Poids normal,18-25
+51,0,27.74,1,0,northeast,9957.7216,Surpoids,51-60
+48,1,22.8,0,0,southwest,8269.044,Poids normal,41-50
+43,0,20.13,2,1,southeast,18767.7377,Poids normal,41-50
+61,1,33.33,4,0,southeast,36580.28216,Obésité modérée,61+
+48,0,32.3,1,0,northwest,8765.249,Obésité modérée,41-50
+38,1,27.6,0,0,southwest,5383.536,Surpoids,31-40
+59,0,25.46,0,0,northwest,12124.9924,Surpoids,51-60
+19,1,24.605,1,0,northwest,2709.24395,Poids normal,18-25
+26,1,34.2,2,0,southwest,3987.926,Obésité modérée,26-30
+54,1,35.815,3,0,northwest,12495.29085,Obésité sévère,51-60
+21,1,32.68,2,0,northwest,26018.95052,Obésité modérée,18-25
+51,0,37.0,0,0,southwest,8798.593,Obésité sévère,51-60
+22,1,31.02,3,1,southeast,35595.5898,Obésité modérée,18-25
+47,0,36.08,1,1,southeast,42211.1382,Obésité sévère,41-50
+18,0,23.32,1,0,southeast,1711.0268,Poids normal,18-25
+47,1,45.32,1,0,southeast,8569.8618,Obésité morbide,41-50
+21,1,34.6,0,0,southwest,2020.177,Obésité modérée,18-25
+19,0,26.03,1,1,northwest,16450.8947,Surpoids,18-25
+23,0,18.715,0,0,northwest,21595.38229,Poids normal,18-25
+54,0,31.6,0,0,southwest,9850.432,Obésité modérée,51-60
+37,1,17.29,2,0,northeast,6877.9801,Insuffisance pondérale,31-40
+46,1,23.655,1,1,northwest,21677.28345,Poids normal,41-50
+55,1,35.2,0,1,southeast,44423.803,Obésité sévère,51-60
+30,1,27.93,0,0,northeast,4137.5227,Surpoids,26-30
+18,0,21.565,0,1,northeast,13747.87235,Poids normal,18-25
+61,0,38.38,0,0,northwest,12950.0712,Obésité sévère,61+
+54,1,23.0,3,0,southwest,12094.478,Poids normal,51-60
+22,0,37.07,2,1,southeast,37484.4493,Obésité sévère,18-25
+45,1,30.495,1,1,northwest,39725.51805,Obésité modérée,41-50
+22,0,28.88,0,0,northeast,2250.8352,Surpoids,18-25
+19,0,27.265,2,0,northwest,22493.65964,Surpoids,18-25
+35,1,28.025,0,1,northwest,20234.85475,Surpoids,31-40
+18,0,23.085,0,0,northeast,1704.70015,Poids normal,18-25
+20,0,30.685,0,1,northeast,33475.81715,Obésité modérée,18-25
+28,1,25.8,0,0,southwest,3161.454,Surpoids,26-30
+55,0,35.245,1,0,northeast,11394.06555,Obésité sévère,51-60
+43,1,24.7,2,1,northwest,21880.82,Poids normal,41-50
+43,1,25.08,0,0,northeast,7325.0482,Surpoids,41-50
+22,0,52.58,1,1,southeast,44501.3982,Obésité morbide,18-25
+25,1,22.515,1,0,northwest,3594.17085,Poids normal,18-25
+49,0,30.9,0,1,southwest,39727.614,Obésité modérée,41-50
+44,1,36.955,1,0,northwest,8023.13545,Obésité sévère,41-50
+64,0,26.41,0,0,northeast,14394.5579,Surpoids,61+
+49,0,29.83,1,0,northeast,9288.0267,Surpoids,41-50
+47,0,29.8,3,1,southwest,25309.489,Surpoids,41-50
+27,1,21.47,0,0,northwest,3353.4703,Poids normal,26-30
+55,0,27.645,0,0,northwest,10594.50155,Surpoids,51-60
+48,1,28.9,0,0,southwest,8277.523,Surpoids,41-50
+45,1,31.79,0,0,southeast,17929.30337,Obésité modérée,41-50
+24,1,39.49,0,0,southeast,2480.9791,Obésité sévère,18-25
+32,0,33.82,1,0,northwest,4462.7218,Obésité modérée,31-40
+24,0,32.01,0,0,southeast,1981.5819,Obésité modérée,18-25
+57,0,27.94,1,0,southeast,11554.2236,Surpoids,51-60
+59,0,41.14,1,1,southeast,48970.2476,Obésité morbide,51-60
+36,0,28.595,3,0,northwest,6548.19505,Surpoids,31-40
+29,1,25.6,4,0,southwest,5708.867,Surpoids,26-30
+42,1,25.3,1,0,southwest,7045.499,Surpoids,41-50
+48,0,37.29,2,0,southeast,8978.1851,Obésité sévère,41-50
+39,0,42.655,0,0,northeast,5757.41345,Obésité morbide,31-40
+63,0,21.66,1,0,northwest,14349.8544,Poids normal,61+
+54,1,31.9,1,0,southeast,10928.849,Obésité modérée,51-60
+37,0,37.07,1,1,southeast,39871.7043,Obésité sévère,31-40
+63,0,31.445,0,0,northeast,13974.45555,Obésité modérée,61+
+21,0,31.255,0,0,northwest,1909.52745,Obésité modérée,18-25
+54,1,28.88,2,0,northeast,12096.6512,Surpoids,51-60
+60,1,18.335,0,0,northeast,13204.28565,Insuffisance pondérale,51-60
+32,1,29.59,1,0,southeast,4562.8421,Surpoids,31-40
+47,1,32.0,1,0,southwest,8551.347,Obésité modérée,41-50
+21,0,26.03,0,0,northeast,2102.2647,Surpoids,18-25
+28,0,31.68,0,1,southeast,34672.1472,Obésité modérée,26-30
+63,0,33.66,3,0,southeast,15161.5344,Obésité modérée,61+
+18,0,21.78,2,0,southeast,11884.04858,Poids normal,18-25
+32,0,27.835,1,0,northwest,4454.40265,Surpoids,31-40
+38,0,19.95,1,0,northwest,5855.9025,Poids normal,31-40
+32,0,31.5,1,0,southwest,4076.497,Obésité modérée,31-40
+62,1,30.495,2,0,northwest,15019.76005,Obésité modérée,61+
+39,1,18.3,5,1,southwest,19023.26,Insuffisance pondérale,31-40
+55,0,28.975,0,0,northeast,10796.35025,Surpoids,51-60
+57,0,31.54,0,0,northwest,11353.2276,Obésité modérée,51-60
+52,0,47.74,1,0,southeast,9748.9106,Obésité morbide,51-60
+56,0,22.1,0,0,southwest,10577.087,Poids normal,51-60
+47,0,36.19,0,1,southeast,41676.0811,Obésité sévère,41-50
+55,1,29.83,0,0,northeast,11286.5387,Surpoids,51-60
+23,0,32.7,3,0,southwest,3591.48,Obésité modérée,18-25
+22,1,30.4,0,1,northwest,33907.548,Obésité modérée,18-25
+50,1,33.7,4,0,southwest,11299.343,Obésité modérée,41-50
+18,1,31.35,4,0,northeast,4561.1885,Obésité modérée,18-25
+51,1,34.96,2,1,northeast,44641.1974,Obésité modérée,51-60
+22,0,33.77,0,0,southeast,1674.6323,Obésité modérée,18-25
+52,1,30.875,0,0,northeast,23045.56616,Obésité modérée,51-60
+25,1,33.99,1,0,southeast,3227.1211,Obésité modérée,18-25
+33,1,19.095,2,1,northeast,16776.30405,Poids normal,31-40
+53,0,28.6,3,0,southwest,11253.421,Surpoids,51-60
+29,0,38.94,1,0,southeast,3471.4096,Obésité sévère,26-30
+58,0,36.08,0,0,southeast,11363.2832,Obésité sévère,51-60
+37,0,29.8,0,0,southwest,20420.60465,Surpoids,31-40
+54,1,31.24,0,0,southeast,10338.9316,Obésité modérée,51-60
+49,1,29.925,0,0,northwest,8988.15875,Surpoids,41-50
+50,1,26.22,2,0,northwest,10493.9458,Surpoids,41-50
+26,0,30.0,1,0,southwest,2904.088,Surpoids,26-30
+45,0,20.35,3,0,southeast,8605.3615,Poids normal,41-50
+54,1,32.3,1,0,northeast,11512.405,Obésité modérée,51-60
+38,0,38.39,3,1,southeast,41949.2441,Obésité sévère,31-40
+48,1,25.85,3,1,southeast,24180.9335,Surpoids,41-50
+28,1,26.315,3,0,northwest,5312.16985,Surpoids,26-30
+23,0,24.51,0,0,northeast,2396.0959,Poids normal,18-25
+55,0,32.67,1,0,southeast,10807.4863,Obésité modérée,51-60
+41,0,29.64,5,0,northeast,9222.4026,Surpoids,41-50
+25,0,33.33,2,1,southeast,36124.5737,Obésité modérée,18-25
+33,0,35.75,1,1,southeast,38282.7495,Obésité sévère,31-40
+30,1,19.95,3,0,northwest,5693.4305,Poids normal,26-30
+23,1,31.4,0,1,southwest,34166.273,Obésité modérée,18-25
+46,0,38.17,2,0,southeast,8347.1643,Obésité sévère,41-50
+53,1,36.86,3,1,northwest,46661.4424,Obésité sévère,51-60
+27,1,32.395,1,0,northeast,18903.49141,Obésité modérée,26-30
+23,1,42.75,1,1,northeast,40904.1995,Obésité morbide,18-25
+63,1,25.08,0,0,northwest,14254.6082,Surpoids,61+
+55,0,29.9,0,0,southwest,10214.636,Surpoids,51-60
+35,1,35.86,2,0,southeast,5836.5204,Obésité sévère,31-40
+34,0,32.8,1,0,southwest,14358.36437,Obésité modérée,31-40
+19,1,18.6,0,0,southwest,1728.897,Poids normal,18-25
+39,1,23.87,5,0,southeast,8582.3023,Poids normal,31-40
+27,0,45.9,2,0,southwest,3693.428,Obésité morbide,26-30
+57,0,40.28,0,0,northeast,20709.02034,Obésité morbide,51-60
+52,1,18.335,0,0,northwest,9991.03765,Insuffisance pondérale,51-60
+28,0,33.82,0,0,northwest,19673.33573,Obésité modérée,26-30
+50,1,28.12,3,0,northwest,11085.5868,Surpoids,41-50
+44,1,25.0,1,0,southwest,7623.518,Poids normal,41-50
+26,1,22.23,0,0,northwest,3176.2877,Poids normal,26-30
+33,0,30.25,0,0,southeast,3704.3545,Obésité modérée,31-40
+19,1,32.49,0,1,northwest,36898.73308,Obésité modérée,18-25
+50,0,37.07,1,0,southeast,9048.0273,Obésité sévère,41-50
+41,1,32.6,3,0,southwest,7954.517,Obésité modérée,41-50
+52,1,24.86,0,0,southeast,27117.99378,Poids normal,51-60
+39,0,32.34,2,0,southeast,6338.0756,Obésité modérée,31-40
+50,0,32.3,2,0,southwest,9630.397,Obésité modérée,41-50
+52,0,32.775,3,0,northwest,11289.10925,Obésité modérée,51-60
+60,0,32.8,0,1,southwest,52590.82939,Obésité modérée,51-60
+20,1,31.92,0,0,northwest,2261.5688,Obésité modérée,18-25
+55,0,21.5,1,0,southwest,10791.96,Poids normal,51-60
+42,0,34.1,0,0,southwest,5979.731,Obésité modérée,41-50
+18,1,30.305,0,0,northeast,2203.73595,Obésité modérée,18-25
+58,1,36.48,0,0,northwest,12235.8392,Obésité sévère,51-60
+43,1,32.56,3,1,southeast,40941.2854,Obésité modérée,41-50
+35,1,35.815,1,0,northwest,5630.45785,Obésité sévère,31-40
+48,1,27.93,4,0,northwest,11015.1747,Surpoids,41-50
+36,1,22.135,3,0,northeast,7228.21565,Poids normal,31-40
+19,0,44.88,0,1,southeast,39722.7462,Obésité morbide,18-25
+23,1,23.18,2,0,northwest,14426.07385,Poids normal,18-25
+20,1,30.59,0,0,northeast,2459.7201,Obésité modérée,18-25
+32,1,41.1,0,0,southwest,3989.841,Obésité morbide,31-40
+43,1,34.58,1,0,northwest,7727.2532,Obésité modérée,41-50
+34,0,42.13,2,0,southeast,5124.1887,Obésité morbide,31-40
+30,0,38.83,1,0,southeast,18963.17192,Obésité sévère,26-30
+18,1,28.215,0,0,northeast,2200.83085,Surpoids,18-25
+41,1,28.31,1,0,northwest,7153.5539,Surpoids,41-50
+35,1,26.125,0,0,northeast,5227.98875,Surpoids,31-40
+57,0,40.37,0,0,southeast,10982.5013,Obésité morbide,51-60
+29,1,24.6,2,0,southwest,4529.477,Poids normal,26-30
+32,0,35.2,2,0,southwest,4670.64,Obésité sévère,31-40
+37,1,34.105,1,0,northwest,6112.35295,Obésité modérée,31-40
+18,0,27.36,1,1,northeast,17178.6824,Surpoids,18-25
+43,1,26.7,2,1,southwest,22478.6,Surpoids,41-50
+56,1,41.91,0,0,southeast,11093.6229,Obésité morbide,51-60
+38,0,29.26,2,0,northwest,6457.8434,Surpoids,31-40
+29,0,32.11,2,0,northwest,4433.9159,Obésité modérée,26-30
+22,1,27.1,0,0,southwest,2154.361,Surpoids,18-25
+52,1,24.13,1,1,northwest,23887.6627,Poids normal,51-60
+40,1,27.4,1,0,southwest,6496.886,Surpoids,31-40
+23,1,34.865,0,0,northeast,2899.48935,Obésité modérée,18-25
+31,0,29.81,0,1,southeast,19350.3689,Surpoids,31-40
+42,1,41.325,1,0,northeast,7650.77375,Obésité morbide,41-50
+24,1,29.925,0,0,northwest,2850.68375,Surpoids,18-25
+25,1,30.3,0,0,southwest,2632.992,Obésité modérée,18-25
+48,1,27.36,1,0,northeast,9447.3824,Surpoids,41-50
+23,1,28.49,1,1,southeast,18328.2381,Surpoids,18-25
+45,0,23.56,2,0,northeast,8603.8234,Poids normal,41-50
+20,0,35.625,3,1,northwest,37465.34375,Obésité sévère,18-25
+62,1,32.68,0,0,northwest,13844.7972,Obésité modérée,61+
+43,1,25.27,1,1,northeast,21771.3423,Surpoids,41-50
+23,1,28.0,0,0,southwest,13126.67745,Surpoids,18-25
+31,1,32.775,2,0,northwest,5327.40025,Obésité modérée,31-40
+41,1,21.755,1,0,northeast,13725.47184,Poids normal,41-50
+58,1,32.395,1,0,northeast,13019.16105,Obésité modérée,51-60
+48,1,36.575,0,0,northwest,8671.19125,Obésité sévère,41-50
+31,1,21.755,0,0,northwest,4134.08245,Poids normal,31-40
+19,1,27.93,3,0,northwest,18838.70366,Surpoids,18-25
+19,1,30.02,0,1,northwest,33307.5508,Obésité modérée,18-25
+41,0,33.55,0,0,southeast,5699.8375,Obésité modérée,41-50
+40,0,29.355,1,0,northwest,6393.60345,Surpoids,31-40
+31,1,25.8,2,0,southwest,4934.705,Surpoids,31-40
+37,0,24.32,2,0,northwest,6198.7518,Poids normal,31-40
+46,0,40.375,2,0,northwest,8733.22925,Obésité morbide,41-50
+22,0,32.11,0,0,northwest,2055.3249,Obésité modérée,18-25
+51,0,32.3,1,0,northeast,9964.06,Obésité modérée,51-60
+18,1,27.28,3,1,southeast,18223.4512,Surpoids,18-25
+35,0,17.86,1,0,northwest,5116.5004,Insuffisance pondérale,31-40
+59,1,34.8,2,0,southwest,36910.60803,Obésité modérée,51-60
+36,0,33.4,2,1,southwest,38415.474,Obésité modérée,31-40
+37,1,25.555,1,1,northeast,20296.86345,Surpoids,31-40
+59,0,37.1,1,0,southwest,12347.172,Obésité sévère,51-60
+36,0,30.875,1,0,northwest,5373.36425,Obésité modérée,31-40
+39,0,34.1,2,0,southeast,23563.01618,Obésité modérée,31-40
+18,0,21.47,0,0,northeast,1702.4553,Poids normal,18-25
+52,1,33.3,2,0,southwest,10806.839,Obésité modérée,51-60
+27,1,31.255,1,0,northwest,3956.07145,Obésité modérée,26-30
+18,0,39.14,0,0,northeast,12890.05765,Obésité sévère,18-25
+40,0,25.08,0,0,southeast,5415.6612,Surpoids,31-40
+29,0,37.29,2,0,southeast,4058.1161,Obésité sévère,26-30
+46,1,34.6,1,1,southwest,41661.602,Obésité modérée,41-50
+38,1,30.21,3,0,northwest,7537.1639,Obésité modérée,31-40
+30,1,21.945,1,0,northeast,4718.20355,Poids normal,26-30
+40,0,24.97,2,0,southeast,6593.5083,Poids normal,31-40
+50,0,25.3,0,0,southeast,8442.667,Surpoids,41-50
+20,1,24.42,0,1,southeast,26125.67477,Poids normal,18-25
+41,0,23.94,1,0,northeast,6858.4796,Poids normal,41-50
+33,1,39.82,1,0,southeast,4795.6568,Obésité sévère,31-40
+38,0,16.815,2,0,northeast,6640.54485,Insuffisance pondérale,31-40
+42,0,37.18,2,0,southeast,7162.0122,Obésité sévère,41-50
+56,0,34.43,0,0,southeast,10594.2257,Obésité modérée,51-60
+58,0,30.305,0,0,northeast,11938.25595,Obésité modérée,51-60
+52,0,34.485,3,1,northwest,60021.39897,Obésité modérée,51-60
+20,1,21.8,0,1,southwest,20167.33603,Poids normal,18-25
+54,1,24.605,3,0,northwest,12479.70895,Poids normal,51-60
+58,0,23.3,0,0,southwest,11345.519,Poids normal,51-60
+45,1,27.83,2,0,southeast,8515.7587,Surpoids,41-50
+26,0,31.065,0,0,northwest,2699.56835,Obésité modérée,26-30
+63,1,21.66,0,0,northeast,14449.8544,Poids normal,61+
+58,1,28.215,0,0,northwest,12224.35085,Surpoids,51-60
+37,0,22.705,3,0,northeast,6985.50695,Poids normal,31-40
+25,1,42.13,1,0,southeast,3238.4357,Obésité morbide,18-25
+52,0,41.8,2,1,southeast,47269.854,Obésité morbide,51-60
+64,0,36.96,2,1,southeast,49577.6624,Obésité sévère,61+
+22,1,21.28,3,0,northwest,4296.2712,Poids normal,18-25
+28,1,33.11,0,0,southeast,3171.6149,Obésité modérée,26-30
+18,0,33.33,0,0,southeast,1135.9407,Obésité modérée,18-25
+28,0,24.3,5,0,southwest,5615.369,Poids normal,26-30
+45,1,25.7,3,0,southwest,9101.798,Surpoids,41-50
+33,0,29.4,4,0,southwest,6059.173,Surpoids,31-40
+18,1,39.82,0,0,southeast,1633.9618,Obésité sévère,18-25
+32,0,33.63,1,1,northeast,37607.5277,Obésité modérée,31-40
+24,0,29.83,0,1,northeast,18648.4217,Surpoids,18-25
+19,0,19.8,0,0,southwest,1241.565,Poids normal,18-25
+20,0,27.3,0,1,southwest,16232.847,Surpoids,18-25
+40,1,29.3,4,0,southwest,15828.82173,Surpoids,31-40
+34,1,27.72,0,0,southeast,4415.1588,Surpoids,31-40
+42,1,37.9,0,0,southwest,6474.013,Obésité sévère,41-50
+51,1,36.385,3,0,northwest,11436.73815,Obésité sévère,51-60
+54,1,27.645,1,0,northwest,11305.93455,Surpoids,51-60
+55,0,37.715,3,0,northwest,30063.58055,Obésité sévère,51-60
+52,1,23.18,0,0,northeast,10197.7722,Poids normal,51-60
+32,1,20.52,0,0,northeast,4544.2348,Poids normal,31-40
+28,0,37.1,1,0,southwest,3277.161,Obésité sévère,26-30
+41,1,28.05,1,0,southeast,6770.1925,Surpoids,41-50
+43,1,29.9,1,0,southwest,7337.748,Surpoids,41-50
+49,1,33.345,2,0,northeast,10370.91255,Obésité modérée,41-50
+64,0,23.76,0,1,southeast,26926.5144,Poids normal,61+
+55,1,30.5,0,0,southwest,10704.47,Obésité modérée,51-60
+24,0,31.065,0,1,northeast,34254.05335,Obésité modérée,18-25
+20,1,33.3,0,0,southwest,1880.487,Obésité modérée,18-25
+45,0,27.5,3,0,southwest,8615.3,Surpoids,41-50
+26,0,33.915,1,0,northwest,3292.52985,Obésité modérée,26-30
+25,1,34.485,0,0,northwest,3021.80915,Obésité modérée,18-25
+43,0,25.52,5,0,southeast,14478.33015,Surpoids,41-50
+35,0,27.61,1,0,southeast,4747.0529,Surpoids,31-40
+26,0,27.06,0,1,southeast,17043.3414,Surpoids,26-30
+57,0,23.7,0,0,southwest,10959.33,Poids normal,51-60
+22,1,30.4,0,0,northeast,2741.948,Obésité modérée,18-25
+32,1,29.735,0,0,northwest,4357.04365,Surpoids,31-40
+39,0,29.925,1,1,northeast,22462.04375,Surpoids,31-40
+25,1,26.79,2,0,northwest,4189.1131,Surpoids,18-25
+48,1,33.33,0,0,southeast,8283.6807,Obésité modérée,41-50
+47,1,27.645,2,1,northwest,24535.69855,Surpoids,41-50
+18,1,21.66,0,1,northeast,14283.4594,Poids normal,18-25
+18,0,30.03,1,0,southeast,1720.3537,Obésité modérée,18-25
+61,0,36.3,1,1,southwest,47403.88,Obésité sévère,61+
+47,1,24.32,0,0,northeast,8534.6718,Poids normal,41-50
+28,1,17.29,0,0,northeast,3732.6251,Insuffisance pondérale,26-30
+36,1,25.9,1,0,southwest,5472.449,Surpoids,31-40
+20,0,39.4,2,1,southwest,38344.566,Obésité sévère,18-25
+44,0,34.32,1,0,southeast,7147.4728,Obésité modérée,41-50
+38,1,19.95,2,0,northeast,7133.9025,Poids normal,31-40
+19,0,34.9,0,1,southwest,34828.654,Obésité modérée,18-25
+21,0,23.21,0,0,southeast,1515.3449,Poids normal,18-25
+46,0,25.745,3,0,northwest,9301.89355,Surpoids,41-50
+58,0,25.175,0,0,northeast,11931.12525,Surpoids,51-60
+20,0,22.0,1,0,southwest,1964.78,Poids normal,18-25
+18,0,26.125,0,0,northeast,1708.92575,Surpoids,18-25
+28,1,26.51,2,0,southeast,4340.4409,Surpoids,26-30
+33,0,27.455,2,0,northwest,5261.46945,Surpoids,31-40
+19,1,25.745,1,0,northwest,2710.82855,Surpoids,18-25
+45,0,30.36,0,1,southeast,62592.87309,Obésité modérée,41-50
+62,0,30.875,3,1,northwest,46718.16325,Obésité modérée,61+
+25,1,20.8,1,0,southwest,3208.787,Poids normal,18-25
+43,0,27.8,0,1,southwest,37829.7242,Surpoids,41-50
+42,0,24.605,2,1,northeast,21259.37795,Poids normal,41-50
+24,1,27.72,0,0,southeast,2464.6188,Surpoids,18-25
+29,1,21.85,0,1,northeast,16115.3045,Poids normal,26-30
+32,0,28.12,4,1,northwest,21472.4788,Surpoids,31-40
+25,1,30.2,0,1,southwest,33900.653,Obésité modérée,18-25
+41,0,32.2,2,0,southwest,6875.961,Obésité modérée,41-50
+42,0,26.315,1,0,northwest,6940.90985,Surpoids,41-50
+33,1,26.695,0,0,northwest,4571.41305,Surpoids,31-40
+34,0,42.9,1,0,southwest,4536.259,Obésité morbide,31-40
+19,1,34.7,2,1,southwest,36397.576,Obésité modérée,18-25
+30,1,23.655,3,1,northwest,18765.87545,Poids normal,26-30
+18,0,28.31,1,0,northeast,11272.33139,Surpoids,18-25
+19,1,20.6,0,0,southwest,1731.677,Poids normal,18-25
+18,0,53.13,0,0,southeast,1163.4627,Obésité morbide,18-25
+35,0,39.71,4,0,northeast,19496.71917,Obésité sévère,31-40
+39,1,26.315,2,0,northwest,7201.70085,Surpoids,31-40
+31,0,31.065,3,0,northwest,5425.02335,Obésité modérée,31-40
+62,0,26.695,0,1,northeast,28101.33305,Surpoids,61+
+62,0,38.83,0,0,southeast,12981.3457,Obésité sévère,61+
+42,1,40.37,2,1,southeast,43896.3763,Obésité morbide,41-50
+31,0,25.935,1,0,northwest,4239.89265,Surpoids,31-40
+61,0,33.535,0,0,northeast,13143.33665,Obésité modérée,61+
+42,1,32.87,0,0,northeast,7050.0213,Obésité modérée,41-50
+51,0,30.03,1,0,southeast,9377.9047,Obésité modérée,51-60
+23,1,24.225,2,0,northeast,22395.74424,Poids normal,18-25
+52,0,38.6,2,0,southwest,10325.206,Obésité sévère,51-60
+57,1,25.74,2,0,southeast,12629.1656,Surpoids,51-60
+23,1,33.4,0,0,southwest,10795.93733,Obésité modérée,18-25
+52,1,44.7,3,0,southwest,11411.685,Obésité morbide,51-60
+50,0,30.97,3,0,northwest,10600.5483,Obésité modérée,41-50
+18,1,31.92,0,0,northeast,2205.9808,Obésité modérée,18-25
+18,1,36.85,0,0,southeast,1629.8335,Obésité sévère,18-25
+21,1,25.8,0,0,southwest,2007.945,Surpoids,18-25
+61,1,29.07,0,1,northwest,29141.3603,Surpoids,61+
