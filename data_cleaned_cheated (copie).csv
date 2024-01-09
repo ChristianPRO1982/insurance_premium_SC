@@ -1,4 +1,256 @@
-age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_group,,258
+age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_group,,158
+26,1,17.195,2,1,northeast,"14455,64405",Insuffisance pondérale,26-30,1,3,2
+24,1,20.52,0,1,northeast,"14571,8908",Poids normal,18-25,1,3,2
+27,1,17.955,2,1,northeast,"15006,57945",Insuffisance pondérale,26-30,1,3,2
+44,0,29.735,2,0,northeast,"32108,66282",Surpoids,41-50,3,1,2
+52,1,37.525,2,0,northwest,"33471,97189",Obésité sévère,51-60,3,1,2
+55,1,26.8,1,0,southwest,"35160,13457",Surpoids,51-60,3,1,2
+61,1,33.33,4,0,southeast,"36580,28216",Obésité modérée,61+,3,1,2
+59,1,34.8,2,0,southwest,"36910,60803",Obésité modérée,51-60,3,1,2
+19,1,30.02,0,1,northwest,"33307,5508",Obésité modérée,18-25,3,3,0
+19,1,33.11,0,1,southeast,"34439,8559",Obésité modérée,18-25,3,3,0
+18,1,36.85,0,1,southeast,"36149,4835",Obésité sévère,18-25,3,3,0
+19,1,34.7,2,1,southwest,"36397,576",Obésité modérée,18-25,3,3,0
+19,1,32.49,0,1,northwest,"36898,73308",Obésité modérée,18-25,3,3,0
+18,1,42.24,0,1,southeast,"38792,6856",Obésité morbide,18-25,3,3,0
+18,0,17.29,2,1,northeast,"12829,4551",Insuffisance pondérale,18-25,1,2,1
+18,0,21.565,0,1,northeast,"13747,87235",Poids normal,18-25,1,2,1
+18,0,25.175,0,1,northeast,"15518,18025",Surpoids,18-25,1,2,1
+25,0,24.13,0,1,northwest,"15817,9857",Poids normal,18-25,1,2,1
+38,0,19.3,0,1,southwest,"15820,699",Poids normal,31-40,1,2,1
+29,1,21.85,0,1,northeast,"16115,3045",Poids normal,26-30,2,3,1
+27,1,20.045,3,1,northwest,"16420,49455",Poids normal,26-30,2,3,1
+64,1,30.115,3,0,northwest,"16455,70785",Obésité modérée,61+,2,1,1
+27,1,24.75,0,1,southeast,"16577,7795",Poids normal,26-30,2,3,1
+21,0,31.02,0,0,southeast,"16586,49771",Obésité modérée,18-25,2,1,1
+29,1,21.755,1,1,northeast,"16657,71745",Poids normal,26-30,2,3,1
+33,1,19.095,2,1,northeast,"16776,30405",Poids normal,31-40,2,3,1
+27,1,30.59,1,0,northeast,"16796,41194",Obésité modérée,26-30,2,1,1
+19,1,27.9,0,1,southwest,"16884,924",Surpoids,18-25,2,1,1
+19,1,28.3,0,1,southwest,"17081,08",Surpoids,18-25,2,1,1
+20,1,26.84,1,1,southeast,"17085,2676",Surpoids,18-25,2,1,1
+24,0,33.63,4,0,northeast,"17128,42608",Obésité modérée,18-25,2,1,1
+19,1,28.31,0,1,northwest,"17468,9839",Surpoids,18-25,2,1,1
+32,1,24.6,0,1,southwest,"17496,306",Poids normal,31-40,2,3,1
+32,1,23.65,1,0,southeast,"17626,23951",Poids normal,31-40,2,1,1
+19,1,28.88,0,1,northwest,"17748,5062",Surpoids,18-25,2,1,1
+25,1,41.325,0,0,northeast,"17878,90068",Obésité morbide,18-25,2,1,1
+45,1,31.79,0,0,southeast,"17929,30337",Obésité modérée,41-50,2,1,1
+23,1,28.31,0,1,northwest,"18033,9679",Surpoids,18-25,2,3,1
+29,0,29.735,2,0,northwest,"18157,876",Surpoids,26-30,2,1,1
+25,1,32.23,1,0,southeast,"18218,16139",Obésité modérée,18-25,2,1,1
+18,1,27.28,3,1,southeast,"18223,4512",Surpoids,18-25,2,1,1
+23,1,28.49,1,1,southeast,"18328,2381",Surpoids,18-25,2,3,1
+36,1,22.6,2,1,southwest,"18608,262",Poids normal,31-40,2,3,1
+30,1,23.655,3,1,northwest,"18765,87545",Poids normal,26-30,2,3,1
+27,1,30.4,3,0,northwest,"18804,7524",Obésité modérée,26-30,2,1,1
+43,0,35.31,2,0,southeast,"18806,14547",Obésité sévère,41-50,2,1,1
+19,1,27.93,3,0,northwest,"18838,70366",Surpoids,18-25,2,1,1
+27,1,32.395,1,0,northeast,"18903,49141",Obésité modérée,26-30,2,1,1
+24,1,27.6,0,0,southwest,"18955,22017",Surpoids,18-25,2,1,1
+30,0,38.83,1,0,southeast,"18963,17192",Obésité sévère,26-30,2,1,1
+39,1,18.3,5,1,southwest,"19023,26",Insuffisance pondérale,31-40,2,3,1
+29,1,27.94,1,1,southeast,"19107,7796",Surpoids,26-30,2,3,1
+43,1,35.72,2,0,northeast,"19144,57652",Obésité sévère,41-50,2,1,1
+37,0,36.19,0,0,southeast,"19214,70553",Obésité sévère,31-40,2,1,1
+29,0,33.345,2,0,northwest,"19442,3535",Obésité modérée,26-30,2,1,1
+40,1,22.22,2,1,southeast,"19444,2658",Poids normal,31-40,2,3,1
+35,0,39.71,4,0,northeast,"19496,71917",Obésité sévère,31-40,2,1,1
+30,1,28.38,1,1,southeast,"19521,9682",Surpoids,26-30,2,3,1
+37,1,26.4,0,1,southeast,"19539,243",Surpoids,31-40,2,3,1
+44,1,20.235,1,1,northeast,"19594,80965",Poids normal,41-50,2,3,1
+28,0,33.82,0,0,northwest,"19673,33573",Obésité modérée,26-30,2,1,1
+50,1,27.83,3,0,southeast,"19749,38338",Surpoids,41-50,2,1,1
+43,1,20.045,2,1,northeast,"19798,05455",Poids normal,41-50,2,3,1
+42,1,23.37,0,1,northeast,"19964,7463",Poids normal,41-50,2,3,1
+20,1,21.8,0,1,southwest,"20167,33603",Poids normal,18-25,2,1,1
+28,1,27.5,2,0,southwest,"20177,67113",Surpoids,26-30,2,1,1
+35,1,28.025,0,1,northwest,"20234,85475",Surpoids,31-40,2,3,1
+29,0,29.64,1,0,northeast,"20277,80751",Surpoids,26-30,2,1,1
+37,1,25.555,1,1,northeast,"20296,86345",Surpoids,31-40,2,3,1
+37,0,29.8,0,0,southwest,"20420,60465",Surpoids,31-40,2,1,1
+53,1,38.06,3,0,southeast,"20462,99766",Obésité sévère,51-60,2,1,1
+55,0,37.3,0,0,southwest,"20630,28351",Obésité sévère,51-60,2,1,1
+57,0,40.28,0,0,northeast,"20709,02034",Obésité morbide,51-60,2,1,1
+55,0,33.0,0,0,southeast,"20781,48892",Obésité modérée,51-60,2,1,1
+47,1,33.345,0,0,northeast,"20878,78443",Obésité modérée,41-50,2,1,1
+48,0,29.6,0,0,southwest,"21232,18226",Surpoids,41-50,2,1,1
+18,1,30.115,0,0,northeast,"21344,8467",Obésité modérée,18-25,2,1,1
+42,1,26.6,0,1,northwest,"21348,706",Surpoids,41-50,2,3,1
+23,0,18.715,0,0,northwest,"21595,38229",Poids normal,18-25,2,1,1
+39,1,24.89,3,1,northeast,"21659,9301",Poids normal,31-40,2,3,1
+46,1,23.655,1,1,northwest,"21677,28345",Poids normal,41-50,2,3,1
+43,1,25.27,1,1,northeast,"21771,3423",Surpoids,41-50,2,3,1
+43,1,26.885,0,1,northwest,"21774,32215",Surpoids,41-50,2,3,1
+59,0,37.4,0,0,southwest,"21797,0004",Obésité sévère,51-60,2,1,1
+43,1,24.7,2,1,northwest,"21880,82",Poids normal,41-50,2,3,1
+33,0,22.705,0,0,northwest,"21984,47061",Poids normal,31-40,2,1,1
+57,1,23.98,1,0,southeast,"22192,43711",Poids normal,51-60,2,1,1
+40,1,28.12,1,1,northeast,"22331,5668",Surpoids,31-40,2,3,1
+23,1,24.225,2,0,northeast,"22395,74424",Poids normal,18-25,2,1,1
+43,1,26.7,2,1,southwest,"22478,6",Surpoids,41-50,2,3,1
+19,0,27.265,2,0,northwest,"22493,65964",Surpoids,18-25,2,1,1
+52,1,30.875,0,0,northeast,"23045,56616",Obésité modérée,51-60,2,1,1
+47,1,27.83,0,1,southeast,"23065,4207",Surpoids,41-50,2,3,1
+19,0,33.1,0,0,southwest,"23082,95533",Obésité modérée,18-25,2,1,1
+25,0,24.985,2,0,northeast,"23241,47453",Poids normal,18-25,2,1,1
+53,1,22.88,1,1,southeast,"23244,7902",Poids normal,51-60,2,3,1
+28,1,24.32,1,0,northeast,"23288,9284",Poids normal,26-30,2,1,1
+47,1,26.125,1,1,northeast,"23401,30575",Surpoids,41-50,2,3,1
+39,0,34.1,2,0,southeast,"23563,01618",Obésité modérée,31-40,2,1,1
+52,1,24.13,1,1,northwest,"23887,6627",Poids normal,51-60,2,3,1
+19,1,30.59,2,0,northwest,"24059,68019",Obésité modérée,18-25,2,1,1
+49,1,23.845,3,1,northeast,"24106,91255",Poids normal,41-50,2,3,1
+48,1,25.85,3,1,southeast,"24180,9335",Surpoids,41-50,2,3,1
+58,1,41.91,0,0,southeast,"24227,33724",Obésité morbide,51-60,2,1,1
+54,0,30.02,0,0,northwest,"24476,47851",Obésité modérée,51-60,2,1,1
+61,1,25.08,0,0,southeast,"24513,09126",Surpoids,61+,2,1,1
+50,1,27.6,1,1,southwest,"24520,264",Surpoids,41-50,2,3,1
+47,1,27.645,2,1,northwest,"24535,69855",Surpoids,41-50,2,3,1
+46,0,27.6,0,0,southwest,"24603,04837",Surpoids,41-50,2,1,1
+52,1,25.3,2,1,southeast,"24667,419",Surpoids,51-60,2,3,1
+26,1,29.64,4,0,northeast,"24671,66334",Surpoids,26-30,2,1,1
+53,1,22.61,3,1,northeast,"24873,3849",Poids normal,51-60,2,3,1
+35,1,38.095,2,0,northeast,"24915,04626",Obésité sévère,31-40,2,1,1
+24,1,23.21,0,0,southeast,"25081,76784",Poids normal,18-25,2,1,1
+50,0,32.11,2,0,northeast,"25333,33284",Obésité modérée,41-50,2,1,1
+54,0,25.46,1,0,northeast,"25517,11363",Surpoids,51-60,2,1,1
+50,1,27.36,0,0,northeast,"25656,57526",Surpoids,41-50,2,1,1
+59,1,23.655,0,1,northwest,"25678,77845",Poids normal,51-60,2,3,1
+52,0,26.4,3,0,southeast,"25992,82104",Surpoids,51-60,2,1,1
+21,1,32.68,2,0,northwest,"26018,95052",Obésité modérée,18-25,2,1,1
+20,1,24.42,0,1,southeast,"26125,67477",Poids normal,18-25,2,1,1
+49,1,27.1,1,0,southwest,"26140,3603",Surpoids,41-50,2,1,1
+47,1,24.1,1,0,southwest,"26236,57997",Poids normal,41-50,2,1,1
+48,1,35.91,1,0,northeast,"26392,26029",Obésité sévère,41-50,2,1,1
+52,0,36.765,2,0,northwest,"26467,09737",Obésité sévère,51-60,2,1,1
+62,0,31.46,1,0,southeast,"27000,98473",Obésité modérée,61+,2,1,1
+64,1,22.99,0,1,southeast,"27037,9141",Poids normal,61+,2,3,1
+52,1,24.86,0,0,southeast,"27117,99378",Poids normal,51-60,2,1,1
+54,1,31.9,3,0,southeast,"27322,73386",Obésité modérée,51-60,2,1,1
+53,0,31.35,0,0,southeast,"27346,04207",Obésité modérée,51-60,2,1,1
+34,0,22.42,2,0,northeast,"27375,90478",Poids normal,31-40,2,1,1
+57,1,29.81,0,1,southeast,"27533,9129",Surpoids,51-60,2,3,1
+20,0,35.31,1,0,southeast,"27724,28875",Obésité sévère,18-25,2,1,1
+62,1,26.29,0,1,southeast,"27808,7251",Surpoids,61+,2,3,1
+61,0,36.1,3,0,southwest,"27941,28758",Obésité sévère,61+,2,1,1
+59,1,36.52,1,0,southeast,"28287,89766",Obésité sévère,51-60,2,1,1
+45,1,27.645,1,0,northwest,"28340,18885",Surpoids,41-50,2,1,1
+48,0,36.67,1,0,northwest,"28468,91901",Obésité sévère,41-50,2,1,1
+40,1,41.42,1,0,northwest,"28476,73499",Obésité morbide,31-40,2,1,1
+60,1,25.84,0,0,northwest,"28923,13692",Surpoids,51-60,2,1,1
+63,1,26.98,0,1,northwest,"28950,4692",Surpoids,61+,2,3,1
+61,1,29.07,0,1,northwest,"29141,3603",Surpoids,61+,2,3,1
+53,1,32.3,2,0,northeast,"29186,48236",Obésité modérée,51-60,2,1,1
+64,1,26.885,0,1,northwest,"29330,98315",Surpoids,61+,2,3,1
+63,1,27.74,0,1,northeast,"29523,1656",Surpoids,61+,2,3,1
+55,0,37.715,3,0,northwest,"30063,58055",Obésité sévère,51-60,2,1,1
+64,0,24.7,1,0,northwest,"30166,61817",Poids normal,61+,2,1,1
+60,0,28.595,0,0,northeast,"30259,99556",Surpoids,51-60,2,1,1
+50,0,25.365,2,0,northwest,"30284,64294",Surpoids,41-50,2,1,1
+61,1,29.92,3,1,southeast,"30942,1918",Surpoids,61+,2,3,1
+62,1,36.86,1,0,northeast,"31620,00106",Obésité sévère,61+,2,1,1
+19,0,30.25,0,1,southeast,"32548,3405",Obésité modérée,18-25,3,3,0
+42,0,28.31,3,1,northwest,"32787,45859",Surpoids,41-50,3,2,1
+20,0,30.685,0,1,northeast,"33475,81715",Obésité modérée,18-25,3,3,0
+18,0,31.73,0,1,northeast,"33732,6867",Obésité modérée,18-25,3,3,0
+19,0,31.92,0,1,northwest,"33750,2918",Obésité modérée,18-25,3,3,0
+24,0,31.065,0,1,northeast,"34254,05335",Obésité modérée,18-25,3,3,0
+18,0,31.68,2,1,southeast,"34303,1672",Obésité modérée,18-25,3,3,0
+24,0,32.7,0,1,southwest,"34472,841",Obésité modérée,18-25,3,3,0
+18,0,33.535,0,1,northeast,"34617,84065",Obésité modérée,18-25,3,3,0
+28,0,31.68,0,1,southeast,"34672,1472",Obésité modérée,26-30,3,3,0
+19,0,34.8,0,1,southwest,"34779,615",Obésité modérée,18-25,3,3,0
+27,0,31.13,1,1,southeast,"34806,4677",Obésité modérée,26-30,3,3,0
+19,0,34.9,0,1,southwest,"34828,654",Obésité modérée,18-25,3,3,0
+45,0,22.895,0,1,northeast,"35069,37452",Poids normal,41-50,3,2,1
+24,0,28.5,0,1,northeast,"35147,52848",Surpoids,18-25,3,2,1
+34,0,30.8,0,1,southwest,"35491,64",Obésité modérée,31-40,3,3,0
+22,0,35.6,0,1,southwest,"35585,576",Obésité sévère,18-25,3,3,0
+26,0,32.9,2,1,southwest,"36085,219",Obésité modérée,26-30,3,3,0
+25,0,33.33,2,1,southeast,"36124,5737",Obésité modérée,18-25,3,3,0
+23,0,31.73,3,1,northeast,"36189,1017",Obésité modérée,18-25,3,3,0
+29,0,34.4,0,1,southwest,"36197,699",Obésité modérée,26-30,3,3,0
+19,0,36.955,0,1,northwest,"36219,40545",Obésité sévère,18-25,3,3,0
+18,0,38.17,0,1,southeast,"36307,7983",Obésité sévère,18-25,3,3,0
+30,0,35.3,0,1,southwest,"36837,467",Obésité sévère,26-30,3,3,0
+30,0,35.53,0,1,southeast,"36950,2567",Obésité sévère,26-30,3,3,0
+22,0,37.62,1,1,southeast,"37165,1638",Obésité sévère,18-25,3,3,0
+20,0,35.625,3,1,northwest,"37465,34375",Obésité sévère,18-25,3,3,0
+22,0,37.07,2,1,southeast,"37484,4493",Obésité sévère,18-25,3,3,0
+32,0,33.63,1,1,northeast,"37607,5277",Obésité modérée,31-40,3,3,0
+36,0,34.43,0,1,southeast,"37742,5757",Obésité modérée,31-40,3,3,0
+43,0,27.8,0,1,southwest,"37829,7242",Surpoids,41-50,3,2,1
+24,0,40.15,0,1,southeast,"38126,2465",Obésité morbide,18-25,3,3,0
+42,0,26.07,1,1,southeast,"38245,59327",Surpoids,41-50,3,2,1
+33,0,35.75,1,1,southeast,"38282,7495",Obésité sévère,31-40,3,3,0
+20,0,39.4,2,1,southwest,"38344,566",Obésité sévère,18-25,3,3,0
+36,0,33.4,2,1,southwest,"38415,474",Obésité modérée,31-40,3,3,0
+36,0,35.2,1,1,southeast,"38709,176",Obésité sévère,31-40,3,3,0
+31,0,36.3,2,1,southwest,38711,Obésité sévère,31-40,3,3,0
+31,0,34.39,3,1,northwest,"38746,3551",Obésité modérée,31-40,3,3,0
+44,0,30.2,2,1,southwest,"38998,546",Obésité modérée,41-50,3,3,0
+37,0,34.2,1,1,northeast,"39047,285",Obésité modérée,31-40,3,3,0
+40,0,32.775,1,1,northeast,"39125,33225",Obésité modérée,31-40,3,3,0
+30,0,37.8,2,1,southwest,"39241,442",Obésité sévère,26-30,3,3,0
+44,0,31.35,1,1,northeast,"39556,4945",Obésité modérée,41-50,3,3,0
+41,0,30.78,3,1,northeast,"39597,4072",Obésité modérée,41-50,3,3,0
+27,0,42.13,0,1,southeast,"39611,7577",Obésité morbide,26-30,3,3,0
+19,0,44.88,0,1,southeast,"39722,7462",Obésité morbide,18-25,3,3,0
+49,0,30.9,0,1,southwest,"39727,614",Obésité modérée,41-50,3,3,0
+35,0,36.67,1,1,northeast,"39774,2763",Obésité sévère,31-40,3,3,0
+37,0,37.07,1,1,southeast,"39871,7043",Obésité sévère,31-40,3,3,0
+39,0,35.3,2,1,southwest,"40103,89",Obésité sévère,31-40,3,3,0
+37,0,34.1,4,1,southwest,"40182,246",Obésité modérée,31-40,3,3,0
+41,0,35.75,1,1,southeast,"40273,6455",Obésité sévère,41-50,3,3,0
+46,0,30.495,3,1,northwest,"40720,55105",Obésité modérée,41-50,3,3,0
+43,0,34.96,1,1,northeast,"41034,2214",Obésité modérée,41-50,3,3,0
+50,0,31.825,0,1,northeast,"41097,16175",Obésité modérée,41-50,3,3,0
+47,0,36.19,0,1,southeast,"41676,0811",Obésité sévère,41-50,3,3,0
+50,0,32.3,1,1,northeast,"41919,097",Obésité modérée,41-50,3,3,0
+38,0,38.39,3,1,southeast,"41949,2441",Obésité sévère,31-40,3,3,0
+54,0,30.8,1,1,southeast,"41999,52",Obésité modérée,51-60,3,3,0
+25,0,45.54,2,1,southeast,"42112,2356",Obésité morbide,18-25,3,3,0
+43,0,35.97,3,1,southeast,"42124,5153",Obésité sévère,41-50,3,3,0
+47,0,36.08,1,1,southeast,"42211,1382",Obésité sévère,41-50,3,3,0
+55,0,30.685,0,1,northeast,"42303,69215",Obésité modérée,51-60,3,3,0
+43,0,38.06,2,1,southeast,"42560,4304",Obésité sévère,41-50,3,3,0
+45,0,36.48,2,1,northwest,"42760,5022",Obésité sévère,41-50,3,3,0
+50,0,34.2,2,1,southwest,"42856,838",Obésité modérée,41-50,3,3,0
+53,0,34.105,0,1,northeast,"43254,41795",Obésité modérée,51-60,3,3,0
+36,0,41.895,3,1,northeast,"43753,33705",Obésité morbide,31-40,3,3,0
+56,0,31.79,2,1,southeast,"43813,8661",Obésité modérée,51-60,3,3,0
+56,0,33.63,0,1,northwest,"43921,1837",Obésité modérée,51-60,3,3,0
+47,0,38.94,2,1,southeast,"44202,6536",Obésité sévère,41-50,3,3,0
+54,0,34.21,2,1,southeast,"44260,7499",Obésité modérée,51-60,3,3,0
+22,0,52.58,1,1,southeast,"44501,3982",Obésité morbide,18-25,3,3,0
+29,0,35.5,2,1,southwest,"44585,45587",Obésité sévère,26-30,3,3,0
+48,0,40.565,2,1,northwest,"45702,02235",Obésité morbide,41-50,3,3,0
+62,0,32.015,0,1,northeast,"45710,20785",Obésité modérée,61+,3,3,0
+60,0,31.35,3,1,northwest,"46130,5265",Obésité modérée,51-60,3,3,0
+46,0,42.35,3,1,southeast,"46151,1245",Obésité morbide,41-50,3,3,0
+61,0,35.86,0,1,southeast,"46599,1084",Obésité sévère,61+,3,3,0
+62,0,30.875,3,1,northwest,"46718,16325",Obésité modérée,61+,3,3,0
+64,0,33.88,0,1,southeast,"46889,2612",Obésité modérée,61+,3,3,0
+63,0,35.09,0,1,southeast,"47055,5321",Obésité sévère,61+,3,3,0
+52,0,41.8,2,1,southeast,"47269,854",Obésité morbide,51-60,3,3,0
+61,0,36.3,1,1,southwest,"47403,88",Obésité sévère,61+,3,3,0
+51,0,42.9,2,1,southeast,"47462,894",Obésité morbide,51-60,3,3,0
+58,0,36.955,2,1,northwest,"47496,49445",Obésité sévère,51-60,3,3,0
+60,0,39.9,0,1,southwest,"48173,361",Obésité sévère,51-60,3,3,0
+54,0,40.565,3,1,northeast,"48549,17835",Obésité morbide,51-60,3,3,0
+60,0,40.92,0,1,southeast,"48673,5588",Obésité morbide,51-60,3,3,0
+57,0,42.13,1,1,southeast,"48675,5177",Obésité morbide,51-60,3,3,0
+59,0,41.14,1,1,southeast,"48970,2476",Obésité morbide,51-60,3,3,0
+64,0,36.96,2,1,southeast,"49577,6624",Obésité sévère,61+,3,3,0
+28,0,36.4,1,1,southwest,"51194,55914",Obésité sévère,26-30,3,3,0
+60,0,32.8,0,1,southwest,"52590,82939",Obésité modérée,51-60,3,3,0
+52,0,34.485,3,1,northwest,"60021,39897",Obésité modérée,51-60,3,3,0
+45,0,30.36,0,1,southeast,"62592,87309",Obésité modérée,41-50,3,3,0
+19,1,21.7,0,1,southwest,"13844,506",Poids normal,18-25,1,1,0
+18,1,21.66,0,1,northeast,"14283,4594",Poids normal,18-25,1,1,0
+20,1,22.42,0,1,northwest,"14711,7438",Poids normal,18-25,1,1,0
+21,1,21.85,1,1,northeast,"15359,1045",Poids normal,18-25,1,1,0
 18,0,23.21,0,0,southeast,"1121,8739",Poids normal,18-25,1,1,0
 18,0,30.14,0,0,southeast,"1131,5066",Obésité modérée,18-25,1,1,0
 18,0,33.33,0,0,southeast,"1135,9407",Obésité modérée,18-25,1,1,0
@@ -890,7 +1142,6 @@ age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_gro
 60,0,36.955,0,0,northeast,"12741,16745",Obésité sévère,51-60,1,1,0
 44,1,36.48,0,0,northeast,"12797,20962",Obésité sévère,41-50,1,1,0
 59,1,26.505,0,0,northeast,"12815,44495",Surpoids,51-60,1,1,0
-18,0,17.29,2,1,northeast,"12829,4551",Insuffisance pondérale,18-25,1,2,1
 18,0,39.14,0,0,northeast,"12890,05765",Obésité sévère,18-25,1,1,0
 59,0,25.46,1,0,northeast,"12913,9924",Surpoids,51-60,1,1,0
 59,0,29.7,2,0,southeast,"12925,886",Surpoids,51-60,1,1,0
@@ -933,11 +1184,9 @@ age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_gro
 61,1,22.04,0,0,northeast,"13616,3586",Poids normal,61+,1,1,0
 61,1,35.91,0,0,northeast,"13635,6379",Obésité sévère,61+,1,1,0
 41,1,21.755,1,0,northeast,"13725,47184",Poids normal,41-50,1,1,0
-18,0,21.565,0,1,northeast,"13747,87235",Poids normal,18-25,1,2,1
 63,0,28.31,0,0,northwest,"13770,0979",Surpoids,61+,1,1,0
 64,0,34.5,0,0,southwest,"13822,803",Obésité modérée,61+,1,1,0
 64,0,40.48,0,0,southeast,"13831,1152",Obésité morbide,61+,1,1,0
-19,1,21.7,0,1,southwest,"13844,506",Poids normal,18-25,1,3,2
 62,1,32.68,0,0,northwest,"13844,7972",Obésité modérée,61+,1,1,0
 63,1,31.8,0,0,southwest,"13880,949",Obésité modérée,61+,1,1,0
 63,1,36.3,0,0,southeast,"13887,204",Obésité sévère,61+,1,1,0
@@ -956,7 +1205,6 @@ age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_gro
 61,1,39.1,2,0,southwest,"14235,072",Obésité sévère,61+,1,1,0
 63,1,25.08,0,0,northwest,"14254,6082",Surpoids,61+,1,1,0
 63,1,26.22,0,0,northwest,"14256,1928",Surpoids,61+,1,1,0
-18,1,21.66,0,1,northeast,"14283,4594",Poids normal,18-25,1,3,2
 64,1,35.97,0,0,southeast,"14313,8463",Obésité sévère,61+,1,1,0
 64,1,39.7,0,0,southwest,"14319,031",Obésité sévère,61+,1,1,0
 63,0,21.66,1,0,northwest,"14349,8544",Poids normal,61+,1,1,0
@@ -969,370 +1217,122 @@ age,sex,bmi,children,smoker,region,charges,bmi_category,age_category,charges_gro
 23,1,23.18,2,0,northwest,"14426,07385",Poids normal,18-25,1,1,0
 63,1,21.66,0,0,northeast,"14449,8544",Poids normal,61+,1,1,0
 63,1,23.085,0,0,northeast,"14451,83515",Poids normal,61+,1,1,0
-26,1,17.195,2,1,northeast,"14455,64405",Insuffisance pondérale,26-30,1,3,2
 63,1,35.2,1,0,southeast,"14474,675",Obésité sévère,61+,1,1,0
 43,0,25.52,5,0,southeast,"14478,33015",Surpoids,41-50,1,1,0
-24,1,20.52,0,1,northeast,"14571,8908",Poids normal,18-25,1,3,2
 59,1,32.395,3,0,northeast,"14590,63205",Obésité modérée,51-60,1,1,0
 64,1,32.965,0,0,northwest,"14692,66935",Obésité modérée,61+,1,1,0
-20,1,22.42,0,1,northwest,"14711,7438",Poids normal,18-25,1,3,2
 64,1,39.33,0,0,northeast,"14901,5167",Obésité sévère,61+,1,1,0
 64,0,25.6,2,0,southwest,"14988,432",Surpoids,61+,1,1,0
-27,1,17.955,2,1,northeast,"15006,57945",Insuffisance pondérale,26-30,1,3,2
 62,1,30.495,2,0,northwest,"15019,76005",Obésité modérée,61+,1,1,0
 63,0,33.66,3,0,southeast,"15161,5344",Obésité modérée,61+,1,1,0
 63,0,39.8,3,0,southwest,"15170,069",Obésité sévère,61+,1,1,0
 62,1,38.095,2,0,northeast,"15230,32405",Obésité sévère,61+,1,1,0
-21,1,21.85,1,1,northeast,"15359,1045",Poids normal,18-25,1,3,2
-18,0,25.175,0,1,northeast,"15518,18025",Surpoids,18-25,1,2,1
 63,0,41.325,3,0,northwest,"15555,18875",Obésité morbide,61+,1,1,0
 62,1,32.965,3,0,northwest,"15612,19335",Obésité modérée,61+,1,1,0
-25,0,24.13,0,1,northwest,"15817,9857",Poids normal,18-25,1,2,1
-38,0,19.3,0,1,southwest,"15820,699",Poids normal,31-40,1,2,1
 40,1,29.3,4,0,southwest,"15828,82173",Surpoids,31-40,1,1,0
 64,1,31.825,2,0,northeast,"16069,08475",Obésité modérée,61+,1,1,0
 64,1,39.05,3,0,southeast,"16085,1275",Obésité sévère,61+,1,1,0
-29,1,21.85,0,1,northeast,"16115,3045",Poids normal,26-30,2,3,1
 29,0,22.895,0,1,northeast,"16138,76205",Poids normal,26-30,2,2,0
 20,0,27.3,0,1,southwest,"16232,847",Surpoids,18-25,2,2,0
 19,0,27.7,0,1,southwest,"16297,846",Surpoids,18-25,2,2,0
-27,1,20.045,3,1,northwest,"16420,49455",Poids normal,26-30,2,3,1
 19,0,26.03,1,1,northwest,"16450,8947",Surpoids,18-25,2,2,0
-64,1,30.115,3,0,northwest,"16455,70785",Obésité modérée,61+,2,1,1
-27,1,24.75,0,1,southeast,"16577,7795",Poids normal,26-30,2,3,1
-21,0,31.02,0,0,southeast,"16586,49771",Obésité modérée,18-25,2,1,1
-29,1,21.755,1,1,northeast,"16657,71745",Poids normal,26-30,2,3,1
-33,1,19.095,2,1,northeast,"16776,30405",Poids normal,31-40,2,3,1
-27,1,30.59,1,0,northeast,"16796,41194",Obésité modérée,26-30,2,1,1
-19,1,27.9,0,1,southwest,"16884,924",Surpoids,18-25,2,3,1
 26,0,27.06,0,1,southeast,"17043,3414",Surpoids,26-30,2,2,0
-19,1,28.3,0,1,southwest,"17081,08",Surpoids,18-25,2,3,1
-20,1,26.84,1,1,southeast,"17085,2676",Surpoids,18-25,2,3,1
-24,0,33.63,4,0,northeast,"17128,42608",Obésité modérée,18-25,2,1,1
 18,0,27.36,1,1,northeast,"17178,6824",Surpoids,18-25,2,2,0
 40,0,19.8,1,1,southeast,"17179,522",Poids normal,31-40,2,2,0
 19,0,29.07,0,1,northwest,"17352,6803",Surpoids,18-25,2,2,0
 30,0,22.99,2,1,northwest,"17361,7661",Poids normal,26-30,2,2,0
-19,1,28.31,0,1,northwest,"17468,9839",Surpoids,18-25,2,3,1
-32,1,24.6,0,1,southwest,"17496,306",Poids normal,31-40,2,3,1
 20,0,28.025,1,1,northwest,"17560,37975",Surpoids,18-25,2,2,0
-32,1,23.65,1,0,southeast,"17626,23951",Poids normal,31-40,2,1,1
 28,0,23.98,3,1,southeast,"17663,1442",Poids normal,26-30,2,2,0
-19,1,28.88,0,1,northwest,"17748,5062",Surpoids,18-25,2,3,1
-25,1,41.325,0,0,northeast,"17878,90068",Obésité morbide,18-25,2,1,1
 33,0,24.795,0,1,northeast,"17904,52705",Poids normal,31-40,2,2,0
-45,1,31.79,0,0,southeast,"17929,30337",Obésité modérée,41-50,2,1,1
 21,0,25.7,4,1,southwest,"17942,106",Surpoids,18-25,2,2,0
-23,1,28.31,0,1,northwest,"18033,9679",Surpoids,18-25,2,3,1
-29,0,29.735,2,0,northwest,"18157,876",Surpoids,26-30,2,1,1
-25,1,32.23,1,0,southeast,"18218,16139",Obésité modérée,18-25,2,1,1
-18,1,27.28,3,1,southeast,"18223,4512",Surpoids,18-25,2,3,1
 27,0,29.15,0,1,southeast,"18246,4955",Surpoids,26-30,2,2,0
 30,0,24.4,3,1,southwest,"18259,216",Poids normal,26-30,2,2,0
 27,0,28.5,0,1,northwest,"18310,742",Surpoids,26-30,2,2,0
-23,1,28.49,1,1,southeast,"18328,2381",Surpoids,18-25,2,3,1
-36,1,22.6,2,1,southwest,"18608,262",Poids normal,31-40,2,3,1
 24,0,29.83,0,1,northeast,"18648,4217",Surpoids,18-25,2,2,0
-30,1,23.655,3,1,northwest,"18765,87545",Poids normal,26-30,2,3,1
 43,0,20.13,2,1,southeast,"18767,7377",Poids normal,41-50,2,2,0
-27,1,30.4,3,0,northwest,"18804,7524",Obésité modérée,26-30,2,1,1
-43,0,35.31,2,0,southeast,"18806,14547",Obésité sévère,41-50,2,1,1
-19,1,27.93,3,0,northwest,"18838,70366",Surpoids,18-25,2,1,1
-27,1,32.395,1,0,northeast,"18903,49141",Obésité modérée,26-30,2,1,1
-24,1,27.6,0,0,southwest,"18955,22017",Surpoids,18-25,2,1,1
-30,0,38.83,1,0,southeast,"18963,17192",Obésité sévère,26-30,2,1,1
 34,0,25.3,2,1,southeast,"18972,495",Surpoids,31-40,2,2,0
-39,1,18.3,5,1,southwest,"19023,26",Insuffisance pondérale,31-40,2,3,1
 33,0,27.1,1,1,southwest,"19040,876",Surpoids,31-40,2,2,0
-29,1,27.94,1,1,southeast,"19107,7796",Surpoids,26-30,2,3,1
-43,1,35.72,2,0,northeast,"19144,57652",Obésité sévère,41-50,2,1,1
 31,0,25.9,3,1,southwest,"19199,944",Surpoids,31-40,2,2,0
-37,0,36.19,0,0,southeast,"19214,70553",Obésité sévère,31-40,2,1,1
 31,0,29.81,0,1,southeast,"19350,3689",Surpoids,31-40,2,2,0
 35,0,24.42,3,1,southeast,"19361,9988",Poids normal,31-40,2,2,0
-29,0,33.345,2,0,northwest,"19442,3535",Obésité modérée,26-30,2,1,1
-40,1,22.22,2,1,southeast,"19444,2658",Poids normal,31-40,2,3,1
-35,0,39.71,4,0,northeast,"19496,71917",Obésité sévère,31-40,2,1,1
 42,0,24.64,0,1,southeast,"19515,5416",Poids normal,41-50,2,2,0
-30,1,28.38,1,1,southeast,"19521,9682",Surpoids,26-30,2,3,1
-37,1,26.4,0,1,southeast,"19539,243",Surpoids,31-40,2,3,1
-44,1,20.235,1,1,northeast,"19594,80965",Poids normal,41-50,2,3,1
-28,0,33.82,0,0,northwest,"19673,33573",Obésité modérée,26-30,2,1,1
 32,0,28.93,1,1,southeast,"19719,6947",Surpoids,31-40,2,2,0
-50,1,27.83,3,0,southeast,"19749,38338",Surpoids,41-50,2,1,1
-43,1,20.045,2,1,northeast,"19798,05455",Poids normal,41-50,2,3,1
 25,0,29.7,3,1,southwest,"19933,458",Surpoids,18-25,2,2,0
-42,1,23.37,0,1,northeast,"19964,7463",Poids normal,41-50,2,3,1
 34,0,27.835,1,1,northwest,"20009,63365",Surpoids,31-40,2,2,0
 39,0,26.41,0,1,northeast,"20149,3229",Surpoids,31-40,2,2,0
-20,1,21.8,0,1,southwest,"20167,33603",Poids normal,18-25,2,3,1
-28,1,27.5,2,0,southwest,"20177,67113",Surpoids,26-30,2,1,1
-35,1,28.025,0,1,northwest,"20234,85475",Surpoids,31-40,2,3,1
-29,0,29.64,1,0,northeast,"20277,80751",Surpoids,26-30,2,1,1
-37,1,25.555,1,1,northeast,"20296,86345",Surpoids,31-40,2,3,1
-37,0,29.8,0,0,southwest,"20420,60465",Surpoids,31-40,2,1,1
-53,1,38.06,3,0,southeast,"20462,99766",Obésité sévère,51-60,2,1,1
-55,0,37.3,0,0,southwest,"20630,28351",Obésité sévère,51-60,2,1,1
-57,0,40.28,0,0,northeast,"20709,02034",Obésité morbide,51-60,2,1,1
 30,0,28.69,3,1,northwest,"20745,9891",Surpoids,26-30,2,2,0
 36,0,28.025,1,1,northeast,"20773,62775",Surpoids,31-40,2,2,0
-55,0,33.0,0,0,southeast,"20781,48892",Obésité modérée,51-60,2,1,1
-47,1,33.345,0,0,northeast,"20878,78443",Obésité modérée,41-50,2,1,1
 35,0,27.74,2,1,northeast,"20984,0936",Surpoids,31-40,2,2,0
 39,0,28.3,1,1,southwest,"21082,16",Surpoids,31-40,2,2,0
 45,0,22.895,2,1,northwest,"21098,55405",Poids normal,41-50,2,2,0
 53,0,20.9,0,1,southeast,"21195,818",Poids normal,51-60,2,2,0
 48,0,24.42,0,1,southeast,"21223,6758",Poids normal,41-50,2,2,0
-48,0,29.6,0,0,southwest,"21232,18226",Surpoids,41-50,2,1,1
 42,0,24.605,2,1,northeast,"21259,37795",Poids normal,41-50,2,2,0
-18,1,30.115,0,0,northeast,"21344,8467",Obésité modérée,18-25,2,1,1
-42,1,26.6,0,1,northwest,"21348,706",Surpoids,41-50,2,3,1
 32,0,28.12,4,1,northwest,"21472,4788",Surpoids,31-40,2,2,0
-23,0,18.715,0,0,northwest,"21595,38229",Poids normal,18-25,2,1,1
-39,1,24.89,3,1,northeast,"21659,9301",Poids normal,31-40,2,3,1
-46,1,23.655,1,1,northwest,"21677,28345",Poids normal,41-50,2,3,1
-43,1,25.27,1,1,northeast,"21771,3423",Surpoids,41-50,2,3,1
-43,1,26.885,0,1,northwest,"21774,32215",Surpoids,41-50,2,3,1
-59,0,37.4,0,0,southwest,"21797,0004",Obésité sévère,51-60,2,1,1
-43,1,24.7,2,1,northwest,"21880,82",Poids normal,41-50,2,3,1
 47,0,25.41,1,1,southeast,"21978,6769",Surpoids,41-50,2,2,0
-33,0,22.705,0,0,northwest,"21984,47061",Poids normal,31-40,2,1,1
 42,0,30.0,0,1,southwest,"22144,032",Surpoids,41-50,2,2,0
-57,1,23.98,1,0,southeast,"22192,43711",Poids normal,51-60,2,1,1
 51,0,23.21,1,1,southeast,"22218,1149",Poids normal,51-60,2,2,0
-40,1,28.12,1,1,northeast,"22331,5668",Surpoids,31-40,2,3,1
-23,1,24.225,2,0,northeast,"22395,74424",Poids normal,18-25,2,1,1
 56,0,19.95,0,1,northeast,"22412,6485",Poids normal,51-60,2,2,0
 39,0,29.925,1,1,northeast,"22462,04375",Surpoids,31-40,2,2,0
-43,1,26.7,2,1,southwest,"22478,6",Surpoids,41-50,2,3,1
-19,0,27.265,2,0,northwest,"22493,65964",Surpoids,18-25,2,1,1
-52,1,30.875,0,0,northeast,"23045,56616",Obésité modérée,51-60,2,1,1
-47,1,27.83,0,1,southeast,"23065,4207",Surpoids,41-50,2,3,1
-19,0,33.1,0,0,southwest,"23082,95533",Obésité modérée,18-25,2,1,1
-25,0,24.985,2,0,northeast,"23241,47453",Poids normal,18-25,2,1,1
-53,1,22.88,1,1,southeast,"23244,7902",Poids normal,51-60,2,3,1
-28,1,24.32,1,0,northeast,"23288,9284",Poids normal,26-30,2,1,1
 49,0,25.6,2,1,southwest,"23306,547",Surpoids,41-50,2,2,0
-47,1,26.125,1,1,northeast,"23401,30575",Surpoids,41-50,2,3,1
-39,0,34.1,2,0,southeast,"23563,01618",Obésité modérée,31-40,2,1,1
 48,0,28.0,1,1,southwest,"23568,272",Surpoids,41-50,2,2,0
 49,0,25.84,2,1,northwest,"23807,2406",Surpoids,41-50,2,2,0
-52,1,24.13,1,1,northwest,"23887,6627",Poids normal,51-60,2,3,1
 51,0,24.795,2,1,northwest,"23967,38305",Poids normal,51-60,2,2,0
-19,1,30.59,2,0,northwest,"24059,68019",Obésité modérée,18-25,2,1,1
-49,1,23.845,3,1,northeast,"24106,91255",Poids normal,41-50,2,3,1
-48,1,25.85,3,1,southeast,"24180,9335",Surpoids,41-50,2,3,1
-58,1,41.91,0,0,southeast,"24227,33724",Obésité morbide,51-60,2,1,1
 52,0,27.36,0,1,northwest,"24393,6224",Surpoids,51-60,2,2,0
-54,0,30.02,0,0,northwest,"24476,47851",Obésité modérée,51-60,2,1,1
-61,1,25.08,0,0,southeast,"24513,09126",Surpoids,61+,2,1,1
-50,1,27.6,1,1,southwest,"24520,264",Surpoids,41-50,2,3,1
-47,1,27.645,2,1,northwest,"24535,69855",Surpoids,41-50,2,3,1
-46,0,27.6,0,0,southwest,"24603,04837",Surpoids,41-50,2,1,1
-52,1,25.3,2,1,southeast,"24667,419",Surpoids,51-60,2,3,1
-26,1,29.64,4,0,northeast,"24671,66334",Surpoids,26-30,2,1,1
 52,0,24.32,3,1,northeast,"24869,8368",Poids normal,51-60,2,2,0
-53,1,22.61,3,1,northeast,"24873,3849",Poids normal,51-60,2,3,1
-35,1,38.095,2,0,northeast,"24915,04626",Obésité sévère,31-40,2,1,1
 47,0,28.215,3,1,northwest,"24915,22085",Surpoids,41-50,2,2,0
-24,1,23.21,0,0,southeast,"25081,76784",Poids normal,18-25,2,1,1
 47,0,29.8,3,1,southwest,"25309,489",Surpoids,41-50,2,2,0
-50,0,32.11,2,0,northeast,"25333,33284",Obésité modérée,41-50,2,1,1
 54,0,25.1,3,1,southwest,"25382,297",Surpoids,51-60,2,2,0
-54,0,25.46,1,0,northeast,"25517,11363",Surpoids,51-60,2,1,1
-50,1,27.36,0,0,northeast,"25656,57526",Surpoids,41-50,2,1,1
-59,1,23.655,0,1,northwest,"25678,77845",Poids normal,51-60,2,3,1
-52,0,26.4,3,0,southeast,"25992,82104",Surpoids,51-60,2,1,1
-21,1,32.68,2,0,northwest,"26018,95052",Obésité modérée,18-25,2,1,1
 56,0,26.695,1,1,northwest,"26109,32905",Surpoids,51-60,2,2,0
-20,1,24.42,0,1,southeast,"26125,67477",Poids normal,18-25,2,3,1
-49,1,27.1,1,0,southwest,"26140,3603",Surpoids,41-50,2,1,1
-47,1,24.1,1,0,southwest,"26236,57997",Poids normal,41-50,2,1,1
-48,1,35.91,1,0,northeast,"26392,26029",Obésité sévère,41-50,2,1,1
-52,0,36.765,2,0,northwest,"26467,09737",Obésité sévère,51-60,2,1,1
 64,0,23.76,0,1,southeast,"26926,5144",Poids normal,61+,2,2,0
-62,0,31.46,1,0,southeast,"27000,98473",Obésité modérée,61+,2,1,1
-64,1,22.99,0,1,southeast,"27037,9141",Poids normal,61+,2,3,1
-52,1,24.86,0,0,southeast,"27117,99378",Poids normal,51-60,2,1,1
 57,0,28.975,0,1,northeast,"27218,43725",Surpoids,51-60,2,2,0
-54,1,31.9,3,0,southeast,"27322,73386",Obésité modérée,51-60,2,1,1
-53,0,31.35,0,0,southeast,"27346,04207",Obésité modérée,51-60,2,1,1
-34,0,22.42,2,0,northeast,"27375,90478",Poids normal,31-40,2,1,1
-57,1,29.81,0,1,southeast,"27533,9129",Surpoids,51-60,2,3,1
-20,0,35.31,1,0,southeast,"27724,28875",Obésité sévère,18-25,2,1,1
-62,1,26.29,0,1,southeast,"27808,7251",Surpoids,61+,2,3,1
-61,0,36.1,3,0,southwest,"27941,28758",Obésité sévère,61+,2,1,1
 62,0,26.695,0,1,northeast,"28101,33305",Surpoids,61+,2,2,0
-59,1,36.52,1,0,southeast,"28287,89766",Obésité sévère,51-60,2,1,1
-45,1,27.645,1,0,northwest,"28340,18885",Surpoids,41-50,2,1,1
-48,0,36.67,1,0,northwest,"28468,91901",Obésité sévère,41-50,2,1,1
-40,1,41.42,1,0,northwest,"28476,73499",Obésité morbide,31-40,2,1,1
 61,0,28.31,1,1,northwest,"28868,6639",Surpoids,61+,2,2,0
-60,1,25.84,0,0,northwest,"28923,13692",Surpoids,51-60,2,1,1
-63,1,26.98,0,1,northwest,"28950,4692",Surpoids,61+,2,3,1
-61,1,29.07,0,1,northwest,"29141,3603",Surpoids,61+,2,3,1
-53,1,32.3,2,0,northeast,"29186,48236",Obésité modérée,51-60,2,1,1
-64,1,26.885,0,1,northwest,"29330,98315",Surpoids,61+,2,3,1
-63,1,27.74,0,1,northeast,"29523,1656",Surpoids,61+,2,3,1
-55,0,37.715,3,0,northwest,"30063,58055",Obésité sévère,51-60,2,1,1
-64,0,24.7,1,0,northwest,"30166,61817",Poids normal,61+,2,1,1
 59,0,29.83,3,1,northeast,"30184,9367",Surpoids,51-60,2,2,0
-60,0,28.595,0,0,northeast,"30259,99556",Surpoids,51-60,2,1,1
-50,0,25.365,2,0,northwest,"30284,64294",Surpoids,41-50,2,1,1
-61,1,29.92,3,1,southeast,"30942,1918",Surpoids,61+,2,3,1
-62,1,36.86,1,0,northeast,"31620,00106",Obésité sévère,61+,2,1,1
-44,0,29.735,2,0,northeast,"32108,66282",Surpoids,41-50,3,1,2
-19,0,30.25,0,1,southeast,"32548,3405",Obésité modérée,18-25,3,2,1
 32,1,17.765,2,1,northwest,"32734,1863",Insuffisance pondérale,31-40,3,3,0
-42,0,28.31,3,1,northwest,"32787,45859",Surpoids,41-50,3,2,1
-19,1,30.02,0,1,northwest,"33307,5508",Obésité modérée,18-25,3,3,0
-52,1,37.525,2,0,northwest,"33471,97189",Obésité sévère,51-60,3,1,2
-20,0,30.685,0,1,northeast,"33475,81715",Obésité modérée,18-25,3,2,1
-18,0,31.73,0,1,northeast,"33732,6867",Obésité modérée,18-25,3,2,1
-19,0,31.92,0,1,northwest,"33750,2918",Obésité modérée,18-25,3,2,1
 25,1,30.2,0,1,southwest,"33900,653",Obésité modérée,18-25,3,3,0
 22,1,30.4,0,1,northwest,"33907,548",Obésité modérée,18-25,3,3,0
 23,1,31.4,0,1,southwest,"34166,273",Obésité modérée,18-25,3,3,0
-24,0,31.065,0,1,northeast,"34254,05335",Obésité modérée,18-25,3,2,1
-18,0,31.68,2,1,southeast,"34303,1672",Obésité modérée,18-25,3,2,1
-19,1,33.11,0,1,southeast,"34439,8559",Obésité modérée,18-25,3,3,0
-24,0,32.7,0,1,southwest,"34472,841",Obésité modérée,18-25,3,2,1
-18,0,33.535,0,1,northeast,"34617,84065",Obésité modérée,18-25,3,2,1
-28,0,31.68,0,1,southeast,"34672,1472",Obésité modérée,26-30,3,2,1
-19,0,34.8,0,1,southwest,"34779,615",Obésité modérée,18-25,3,2,1
-27,0,31.13,1,1,southeast,"34806,4677",Obésité modérée,26-30,3,2,1
-19,0,34.9,0,1,southwest,"34828,654",Obésité modérée,18-25,3,2,1
 27,1,31.4,0,1,southwest,"34838,873",Obésité modérée,26-30,3,3,0
-45,0,22.895,0,1,northeast,"35069,37452",Poids normal,41-50,3,2,1
-24,0,28.5,0,1,northeast,"35147,52848",Surpoids,18-25,3,2,1
-55,1,26.8,1,0,southwest,"35160,13457",Surpoids,51-60,3,1,2
-34,0,30.8,0,1,southwest,"35491,64",Obésité modérée,31-40,3,2,1
-22,0,35.6,0,1,southwest,"35585,576",Obésité sévère,18-25,3,2,1
 22,1,31.02,3,1,southeast,"35595,5898",Obésité modérée,18-25,3,3,0
 23,1,32.78,2,1,southeast,"36021,0112",Obésité modérée,18-25,3,3,0
-26,0,32.9,2,1,southwest,"36085,219",Obésité modérée,26-30,3,2,1
-25,0,33.33,2,1,southeast,"36124,5737",Obésité modérée,18-25,3,2,1
-18,1,36.85,0,1,southeast,"36149,4835",Obésité sévère,18-25,3,3,0
-23,0,31.73,3,1,northeast,"36189,1017",Obésité modérée,18-25,3,2,1
-29,0,34.4,0,1,southwest,"36197,699",Obésité modérée,26-30,3,2,1
-19,0,36.955,0,1,northwest,"36219,40545",Obésité sévère,18-25,3,2,1
-18,0,38.17,0,1,southeast,"36307,7983",Obésité sévère,18-25,3,2,1
-19,1,34.7,2,1,southwest,"36397,576",Obésité modérée,18-25,3,3,0
-61,1,33.33,4,0,southeast,"36580,28216",Obésité modérée,61+,3,1,2
-30,0,35.3,0,1,southwest,"36837,467",Obésité sévère,26-30,3,2,1
-19,1,32.49,0,1,northwest,"36898,73308",Obésité modérée,18-25,3,3,0
-59,1,34.8,2,0,southwest,"36910,60803",Obésité modérée,51-60,3,1,2
-30,0,35.53,0,1,southeast,"36950,2567",Obésité sévère,26-30,3,2,1
 33,1,33.5,0,1,southwest,"37079,372",Obésité modérée,31-40,3,3,0
 27,1,36.08,0,1,southeast,"37133,8982",Obésité sévère,26-30,3,3,0
-22,0,37.62,1,1,southeast,"37165,1638",Obésité sévère,18-25,3,2,1
 37,1,30.78,0,1,northeast,"37270,1512",Obésité modérée,31-40,3,3,0
-20,0,35.625,3,1,northwest,"37465,34375",Obésité sévère,18-25,3,2,1
-22,0,37.07,2,1,southeast,"37484,4493",Obésité sévère,18-25,3,2,1
-32,0,33.63,1,1,northeast,"37607,5277",Obésité modérée,31-40,3,2,1
 34,1,31.92,1,1,northeast,"37701,8768",Obésité modérée,31-40,3,3,0
-36,0,34.43,0,1,southeast,"37742,5757",Obésité modérée,31-40,3,2,1
-43,0,27.8,0,1,southwest,"37829,7242",Surpoids,41-50,3,2,1
-24,0,40.15,0,1,southeast,"38126,2465",Obésité morbide,18-25,3,2,1
-42,0,26.07,1,1,southeast,"38245,59327",Surpoids,41-50,3,2,1
-33,0,35.75,1,1,southeast,"38282,7495",Obésité sévère,31-40,3,2,1
-20,0,39.4,2,1,southwest,"38344,566",Obésité sévère,18-25,3,2,1
-36,0,33.4,2,1,southwest,"38415,474",Obésité modérée,31-40,3,2,1
 23,1,36.67,2,1,northeast,"38511,6283",Obésité sévère,18-25,3,3,0
-36,0,35.2,1,1,southeast,"38709,176",Obésité sévère,31-40,3,2,1
-31,0,36.3,2,1,southwest,38711,Obésité sévère,31-40,3,2,1
-31,0,34.39,3,1,northwest,"38746,3551",Obésité modérée,31-40,3,2,1
-18,1,42.24,0,1,southeast,"38792,6856",Obésité morbide,18-25,3,3,0
-44,0,30.2,2,1,southwest,"38998,546",Obésité modérée,41-50,3,2,1
-37,0,34.2,1,1,northeast,"39047,285",Obésité modérée,31-40,3,2,1
-40,0,32.775,1,1,northeast,"39125,33225",Obésité modérée,31-40,3,2,1
-30,0,37.8,2,1,southwest,"39241,442",Obésité sévère,26-30,3,2,1
-44,0,31.35,1,1,northeast,"39556,4945",Obésité modérée,41-50,3,2,1
-41,0,30.78,3,1,northeast,"39597,4072",Obésité modérée,41-50,3,2,1
-27,0,42.13,0,1,southeast,"39611,7577",Obésité morbide,26-30,3,2,1
-19,0,44.88,0,1,southeast,"39722,7462",Obésité morbide,18-25,3,2,1
 45,1,30.495,1,1,northwest,"39725,51805",Obésité modérée,41-50,3,3,0
-49,0,30.9,0,1,southwest,"39727,614",Obésité modérée,41-50,3,2,1
-35,0,36.67,1,1,northeast,"39774,2763",Obésité sévère,31-40,3,2,1
 37,1,34.8,2,1,southwest,"39836,519",Obésité modérée,31-40,3,3,0
-37,0,37.07,1,1,southeast,"39871,7043",Obésité sévère,31-40,3,2,1
 35,1,34.105,3,1,northwest,"39983,42595",Obésité modérée,31-40,3,3,0
 40,1,32.775,2,1,northwest,"40003,33225",Obésité modérée,31-40,3,3,0
-39,0,35.3,2,1,southwest,"40103,89",Obésité sévère,31-40,3,2,1
-37,0,34.1,4,1,southwest,"40182,246",Obésité modérée,31-40,3,2,1
-41,0,35.75,1,1,southeast,"40273,6455",Obésité sévère,41-50,3,2,1
 37,1,38.39,0,1,southeast,"40419,0191",Obésité sévère,31-40,3,3,0
-46,0,30.495,3,1,northwest,"40720,55105",Obésité modérée,41-50,3,2,1
 23,1,42.75,1,1,northeast,"40904,1995",Obésité morbide,18-25,3,3,0
 30,1,39.05,3,1,southeast,"40932,4295",Obésité sévère,26-30,3,3,0
 43,1,32.56,3,1,southeast,"40941,2854",Obésité modérée,41-50,3,3,0
 48,1,33.11,0,1,southeast,"40974,1649",Obésité modérée,41-50,3,3,0
-43,0,34.96,1,1,northeast,"41034,2214",Obésité modérée,41-50,3,2,1
-50,0,31.825,0,1,northeast,"41097,16175",Obésité modérée,41-50,3,2,1
 46,1,34.6,1,1,southwest,"41661,602",Obésité modérée,41-50,3,3,0
-47,0,36.19,0,1,southeast,"41676,0811",Obésité sévère,41-50,3,2,1
-50,0,32.3,1,1,northeast,"41919,097",Obésité modérée,41-50,3,2,1
-38,0,38.39,3,1,southeast,"41949,2441",Obésité sévère,31-40,3,2,1
-54,0,30.8,1,1,southeast,"41999,52",Obésité modérée,51-60,3,2,1
 46,1,35.53,0,1,northeast,"42111,6647",Obésité sévère,41-50,3,3,0
-25,0,45.54,2,1,southeast,"42112,2356",Obésité morbide,18-25,3,2,1
-43,0,35.97,3,1,southeast,"42124,5153",Obésité sévère,41-50,3,2,1
-47,0,36.08,1,1,southeast,"42211,1382",Obésité sévère,41-50,3,2,1
-55,0,30.685,0,1,northeast,"42303,69215",Obésité modérée,51-60,3,2,1
-43,0,38.06,2,1,southeast,"42560,4304",Obésité sévère,41-50,3,2,1
-45,0,36.48,2,1,northwest,"42760,5022",Obésité sévère,41-50,3,2,1
-50,0,34.2,2,1,southwest,"42856,838",Obésité modérée,41-50,3,2,1
 47,1,36.63,1,1,southeast,"42969,8527",Obésité sévère,41-50,3,3,0
 44,1,38.95,0,1,northwest,"42983,4585",Obésité sévère,41-50,3,3,0
-53,0,34.105,0,1,northeast,"43254,41795",Obésité modérée,51-60,3,2,1
 57,1,31.16,0,1,northwest,"43578,9394",Obésité modérée,51-60,3,3,0
-36,0,41.895,3,1,northeast,"43753,33705",Obésité morbide,31-40,3,2,1
-56,0,31.79,2,1,southeast,"43813,8661",Obésité modérée,51-60,3,2,1
 42,1,40.37,2,1,southeast,"43896,3763",Obésité morbide,41-50,3,3,0
-56,0,33.63,0,1,northwest,"43921,1837",Obésité modérée,51-60,3,2,1
 34,1,30.21,1,1,northwest,"43943,8761",Obésité modérée,31-40,3,3,0
-47,0,38.94,2,1,southeast,"44202,6536",Obésité sévère,41-50,3,2,1
-54,0,34.21,2,1,southeast,"44260,7499",Obésité modérée,51-60,3,2,1
 51,1,38.06,0,1,southeast,"44400,4064",Obésité sévère,51-60,3,3,0
 55,1,35.2,0,1,southeast,"44423,803",Obésité sévère,51-60,3,3,0
-22,0,52.58,1,1,southeast,"44501,3982",Obésité morbide,18-25,3,2,1
-29,0,35.5,2,1,southwest,"44585,45587",Obésité sévère,26-30,3,2,1
 51,1,34.96,2,1,northeast,"44641,1974",Obésité modérée,51-60,3,3,0
 60,1,32.45,0,1,southeast,"45008,9555",Obésité modérée,51-60,3,3,0
-48,0,40.565,2,1,northwest,"45702,02235",Obésité morbide,41-50,3,2,1
-62,0,32.015,0,1,northeast,"45710,20785",Obésité modérée,61+,3,2,1
 43,1,46.2,0,1,southeast,"45863,205",Obésité morbide,41-50,3,3,0
 37,1,47.6,2,1,southwest,"46113,511",Obésité morbide,31-40,3,3,0
-60,0,31.35,3,1,northwest,"46130,5265",Obésité modérée,51-60,3,2,1
-46,0,42.35,3,1,southeast,"46151,1245",Obésité morbide,41-50,3,2,1
 44,1,43.89,2,1,southeast,"46200,9851",Obésité morbide,41-50,3,3,0
 51,1,37.05,3,1,northeast,"46255,1125",Obésité sévère,51-60,3,3,0
-61,0,35.86,0,1,southeast,"46599,1084",Obésité sévère,61+,3,2,1
 53,1,36.86,3,1,northwest,"46661,4424",Obésité sévère,51-60,3,3,0
-62,0,30.875,3,1,northwest,"46718,16325",Obésité modérée,61+,3,2,1
-64,0,33.88,0,1,southeast,"46889,2612",Obésité modérée,61+,3,2,1
-63,0,35.09,0,1,southeast,"47055,5321",Obésité sévère,61+,3,2,1
-52,0,41.8,2,1,southeast,"47269,854",Obésité morbide,51-60,3,2,1
 64,1,31.3,2,1,southwest,"47291,055",Obésité modérée,61+,3,3,0
 63,1,32.2,2,1,southwest,"47305,305",Obésité modérée,61+,3,3,0
-61,0,36.3,1,1,southwest,"47403,88",Obésité sévère,61+,3,2,1
-51,0,42.9,2,1,southeast,"47462,894",Obésité morbide,51-60,3,2,1
-58,0,36.955,2,1,northwest,"47496,49445",Obésité sévère,51-60,3,2,1
 59,1,36.765,1,1,northeast,"47896,79135",Obésité sévère,51-60,3,3,0
 64,1,33.8,1,1,southwest,"47928,03",Obésité modérée,61+,3,3,0
-60,0,39.9,0,1,southwest,"48173,361",Obésité sévère,51-60,3,2,1
 61,1,36.385,1,1,northeast,"48517,56315",Obésité sévère,61+,3,3,0
-54,0,40.565,3,1,northeast,"48549,17835",Obésité morbide,51-60,3,2,1
-60,0,40.92,0,1,southeast,"48673,5588",Obésité morbide,51-60,3,2,1
-57,0,42.13,1,1,southeast,"48675,5177",Obésité morbide,51-60,3,2,1
 63,1,37.7,0,1,southwest,"48824,45",Obésité sévère,61+,3,3,0
 44,1,38.06,0,1,southeast,"48885,13561",Obésité sévère,41-50,3,3,0
-59,0,41.14,1,1,southeast,"48970,2476",Obésité morbide,51-60,3,2,1
-64,0,36.96,2,1,southeast,"49577,6624",Obésité sévère,61+,3,2,1
-28,0,36.4,1,1,southwest,"51194,55914",Obésité sévère,26-30,3,2,1
-60,0,32.8,0,1,southwest,"52590,82939",Obésité modérée,51-60,3,2,1
 33,1,35.53,0,1,northwest,"55135,40209",Obésité sévère,31-40,3,3,0
 31,1,38.095,1,1,northeast,"58571,07448",Obésité sévère,31-40,3,3,0
-52,0,34.485,3,1,northwest,"60021,39897",Obésité modérée,51-60,3,2,1
-45,0,30.36,0,1,southeast,"62592,87309",Obésité modérée,41-50,3,2,1
 54,1,47.41,0,1,southeast,"63770,42801",Obésité morbide,51-60,3,3,0
