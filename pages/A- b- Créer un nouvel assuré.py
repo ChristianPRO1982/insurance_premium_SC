@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 
 date_minimale = datetime.today() - timedelta(days=365*100)
 
-
 title = "Créer un(une) assuré(e)"
 st.set_page_config(page_title=title + " - " + common.title, page_icon=":skull:", layout="wide")
 st.title(title)
@@ -37,29 +36,13 @@ bmi = round(weight / ((height / 100) ** 2), 2)
 col3.write("## Santé")
 col3.write(f"IMC : {bmi}")
 smoker = col3.checkbox("Fumeur")
-sex = col3.radio("La tête du client", ["C'est un pigeon", "Normale", "Il est cool, je lui fais une réduc."])
 
-with st.sidebar.form(key='my_form'):
+with st.sidebar.form(key='pre_confirm'):
     submit = st.form_submit_button("Enregistrer le/la nouvel(le) assuré(e)")
-    st.write(f"{first_name} {last_name}/{sex}/{age}/{children}/{region}/{bmi}/{smoker}")
-    good = st.checkbox("Les valeurs sont OK")
+    st.write(f"{first_name}/{last_name}/{sex}/{age}/{children}/{region}/{bmi}/{smoker}")
 
-if submit and good:
-    good = False
-    st.success("youpi !")
-
-
-# Variable booléenne pour contrôler l'état du checkbox
-etat_checkbox = False
-
-# Affichage du checkbox initial
-st.write("Valeur actuelle du checkbox :", etat_checkbox)
-
-# Modifier la valeur du checkbox en fonction d'une condition
-if st.button("Modifier le checkbox"):
-    # Inversion de l'état actuel du checkbox
-    etat_checkbox = not etat_checkbox
-
-# Affichage du checkbox mis à jour
-st.checkbox("Checkbox modifiable par le code", value=etat_checkbox)
-
+if submit:
+    st.empty()
+    st.success("Les informations ont bien été enregistrées")
+    
+    
