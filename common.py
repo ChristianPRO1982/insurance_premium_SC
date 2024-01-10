@@ -1,11 +1,8 @@
 import streamlit as st
 
-title = "Insurance Premium (a SC™ company)"
+title = "Assur'Aimant (a SC™ company)"
+
+train_done = False
 
 def sidebar():
-    st.sidebar.write(
-    """
-    Options
-    ___
-
-    """)
+    st.sidebar.write("### Options")
