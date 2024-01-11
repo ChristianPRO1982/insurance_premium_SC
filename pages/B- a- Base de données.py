@@ -24,3 +24,5 @@ col1.write(df_base)
 
 col2.write('## Données clients')
 col2.write(df_customer)
+
+# first_name	last_name	birthday	age	sex	height	weight	bmi	children	smoker	region	charges

@@ -40,6 +40,7 @@ smoker = col3.checkbox("Fumeur")
 with st.sidebar.form(key='pre_confirm'):
     submit = st.form_submit_button("Enregistrer le/la nouvel(le) assuré(e)")
     st.write(f"{first_name}/{last_name}/{sex}/{age}/{children}/{region}/{bmi}/{smoker}")
+    # good = st.checkbox("Valider ces informations")
 
 if submit:
     st.empty()
