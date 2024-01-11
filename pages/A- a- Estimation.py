@@ -1,13 +1,8 @@
-from insurance_premium_SC.common import common
+import common
 import streamlit as st
 import numpy as np
 from random import randint
 from  model import predict
-import joblib
-
-#charge le modele 
-modele_file = 'modele_insur.sav'
-model = joblib.load(modele_file)
 
 #title = "Estimateur"
 st.title('Faites une simulation sans attendre!')
@@ -30,29 +25,45 @@ if common.train_done:
     else:
         val_sex = 1
 
-    if smoker == "Fumeur":  
+    if smoker == "Fumeur":
         val_smoker = 1
     else:
         val_smoker = 0
     val_region = float(val_smoker)
     
+
     # calcul de l'IMC
     bmi = round(weight / ((height / 100) ** 2), 2)
-
-    features = [age, bmi, val_sex, val_smoker, val_region]
-
-    predicted_charges = model.predict([features])
 
     # Afficher les données mises à jour
     st.write("Age :", age)
     st.write("IMC :", bmi)
+    
+    
     st.write("Sexe :", sex)
     st.write("Fumeur :", smoker)
     st.write("___")
-    st.write("# Prime d'assurance estimée à :", predicted_charges[0])
+    st.write("# Prime d'assurance estimée à :", randint(15000, 88000))
 
 
+#affiche logo
+#img = Image.open("logo.png")
+#st.image(img, width=300)
 
+# #affiche bouton choix genre
+# gender = st.radio("Vous êtes un/une: ", ('Homme','Femme'))
+
+# # age
+# age = st.number_input("Sélectionnez votre âge", 0, 100)
+
+# #bmi
+# bmi = st.number_input("Sélectionnez votre IMC", 16, 55)
+
+# #case à cocher smoker
+# smoker = st.checkbox("Fumeur")
+
+# #bouton evaluation
+# st.button("Calculer ma prime")
 
 
 
