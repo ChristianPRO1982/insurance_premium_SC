@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 date_minimale = datetime.today() - timedelta(days=365*100)
 
 title = "Créer un(une) assuré(e)"
-st.set_page_config(page_title=title + " - " + common.title, page_icon=":skull:", layout="wide")
+st.set_page_config(page_title=title + " - " + common.title, page_icon="favicon.ico", layout="wide")
 st.title(title)
 common.sidebar()
 
@@ -27,7 +27,6 @@ age = today.year - birthday.year - ((today.month, today.day) < (birthday.month, 
 col2.write("## Compléments")
 height = col2.slider("Taille (en cm)", 140, 250, 170)
 weight = col2.slider("Poids (en kg)", 30, 250, 70)
-aaa = col2.slider("Combien de film au cinéma êtes-vous aller voir cette anée ?", 0, 50, 0)
 region = col2.radio("Région d'habitation", ["Northeast", "Southeast", "Northwest", "Southwest"])
 
 # calcul de l'IMC
@@ -38,12 +37,18 @@ col3.write(f"IMC : {bmi}")
 smoker = col3.checkbox("Fumeur")
 
 with st.sidebar.form(key='pre_confirm'):
-    submit = st.form_submit_button("Enregistrer le/la nouvel(le) assuré(e)")
-    st.write(f"{first_name}/{last_name}/{sex}/{age}/{children}/{region}/{bmi}/{smoker}")
+    charges = st.number_input('Charges')
+    st.checkbox('remise vendeur ($-100)')
+    submit = st.form_submit_button("Enregistrer le(la) nouvel(le) assuré(e)")
     # good = st.checkbox("Valider ces informations")
 
 if submit:
-    st.empty()
+    csv_file = 'data_custumer.csv'
+    date_created = datetime.now()
+    new_row = f'{first_name},{last_name},{birthday},{age},{sex},{height},{weight},{bmi},{children},{smoker},{region},{charges},{date_created}'
+    with open(csv_file, 'a') as fichier:
+        fichier.write(new_row + '\n')
+
     st.success("Les informations ont bien été enregistrées")
     
     

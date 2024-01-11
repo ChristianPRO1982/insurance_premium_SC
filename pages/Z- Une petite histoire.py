@@ -2,8 +2,9 @@ import common
 import streamlit as st
 
 title = "Une petite histoire"
-st.set_page_config(page_title=title + " - " + common.title, page_icon=":skull:", layout="wide")
+st.set_page_config(page_title=title + " - " + common.title, page_icon="favicon.ico", layout="wide")
 st.title(title)
+common.sidebar(option=False)
 
 st.write(
 """
