@@ -30,3 +30,12 @@ col2.write("""
 
 Faites le choix judicieux pour votre avenir financier. Rejoignez la famille Assur'Aimant aujourd'hui et bénéficiez de la protection dont vous avez besoin à un prix qui vous fera sourire. Parce que chez Assur'Aimant, nous aimons vous voir protégé sans vous ruiner.
 """)
+
+st.session_state['age'] = 25
+st.session_state['height'] = 170
+st.session_state['weight'] = 70
+st.session_state['sex'] = 0
+st.session_state['smoker'] = 0
+st.session_state['children'] = 0
+st.session_state['region'] = "northeast"
+st.session_state['predict'] = 4435.13
