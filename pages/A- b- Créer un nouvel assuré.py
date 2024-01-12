@@ -38,14 +38,14 @@ smoker = col3.checkbox("Fumeur")
 
 with st.sidebar.form(key='pre_confirm'):
     charges = st.number_input('Charges')
-    st.checkbox('remise vendeur ($-100)')
+    discount = st.checkbox('remise vendeur ($-100)')
     submit = st.form_submit_button("Enregistrer le(la) nouvel(le) assuré(e)")
     # good = st.checkbox("Valider ces informations")
 
 if submit:
     csv_file = 'data_custumer.csv'
     date_created = datetime.now()
-    new_row = f'{first_name},{last_name},{birthday},{age},{sex},{height},{weight},{bmi},{children},{smoker},{region},{charges},{date_created}'
+    new_row = f'{first_name},{last_name},{birthday},{age},{sex},{height},{weight},{bmi},{children},{smoker},{region},{charges},{discount},{date_created}'
     with open(csv_file, 'a') as fichier:
         fichier.write(new_row + '\n')
 
