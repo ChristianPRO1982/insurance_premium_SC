@@ -12,7 +12,7 @@ common.sidebar(logo=False)
 age = st.sidebar.slider("Age", 15, 120, 25)
 height = st.sidebar.slider("Taille (en cm)", 140, 250, 170)
 weight = st.sidebar.slider("Poids (en kg)", 30, 250, 70)
-sex = st.sidebar.radio("Sexe", ["Homme", "Femme"])
+sex = st.sidebar.radio("Sexe", ["male", "female"])
 smoker = st.sidebar.checkbox("Fumeur")
 children = st.sidebar.slider("Nombre d'enfants", 0, 10, 0)
 region = st.sidebar.selectbox('Sélectionnez votre région:', ('northeast', 'southeast', 'southwest', 'northwest'))
@@ -21,10 +21,14 @@ region = st.sidebar.selectbox('Sélectionnez votre région:', ('northeast', 'sou
 bmi = round(weight / ((height / 100) ** 2), 2)
 
 #convertir var categorielles en float
-if sex == 'Homme': val_sex = 0
+if sex == 'male': val_sex = 0
 else: val_sex = 1
-if smoker: val_smoker = 1
-else: val_smoker = 0
+if smoker:
+    val_smoker = 1
+    val_smoker_txt = 'yes'
+else:
+    val_smoker = 0
+    val_smoker_txt = 'no'
 smoker_bmi = val_smoker * bmi
 smoker_age = val_smoker * age
 smoker_children = val_smoker * children
@@ -65,8 +69,10 @@ col3.write(txt_smoker)
 
 st.write("___")
 
-data = [[age,val_sex,bmi,children,val_smoker,region, smoker_bmi, smoker_age, smoker_children]]# charges_group
-columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'smoker_bmi', 'smoker_age', 'smoker_children']
+# data = [[age,val_sex,bmi,children,val_smoker,region, smoker_bmi, smoker_age, smoker_children]]# charges_group
+data = [[age,sex,bmi,children,val_smoker_txt,region]]# charges_group
+# columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'smoker_bmi', 'smoker_age', 'smoker_children']
+columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 df = pd.DataFrame(data, columns=columns)
 
 result = round(predict(df)[0], 2)

@@ -3,3 +3,4 @@ seaborn
 scipy
 streamlit
 scikit-learn
+statsmodels
