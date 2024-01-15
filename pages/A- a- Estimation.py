@@ -26,6 +26,8 @@ else: val_sex = 1
 if smoker: val_smoker = 1
 else: val_smoker = 0
 smoker_bmi = val_smoker * bmi
+smoker_age = val_smoker * age
+smoker_children = val_smoker * children
 if bmi < 18.5:
     bmi_category = "Insuffisance pondérale"
 elif bmi < 25:
@@ -63,8 +65,8 @@ col3.write(txt_smoker)
 
 st.write("___")
 
-data = [[age,val_sex,bmi,children,val_smoker,region,charges_group, smoker_bmi]]
-columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'charges_group', 'smoker_bmi']
+data = [[age,val_sex,bmi,children,val_smoker,region, smoker_bmi, smoker_age, smoker_children]]# charges_group
+columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'smoker_bmi', 'smoker_age', 'smoker_children']
 df = pd.DataFrame(data, columns=columns)
 
 result = round(predict(df)[0], 2)
