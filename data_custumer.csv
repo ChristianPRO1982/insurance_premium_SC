@@ -1,3 +1,4 @@
 first_name,last_name,birthday,age,sex,height,weight,bmi,children,smoker,region,charges,discount,date_created
 Kévin,BG,1992-03-21,31,Homme,182,62,18.72,9,False,Southwest,1000.0,True,2024-01-11 13:49:43.890489
 Débo,Youpi,1997-06-04,26,Femme,174,60,19.82,0,False,Southwest,1200.12,False,2024-01-11 14:37:58.888609
+test,un gros vieux,1925-02-05,98,Femme,140,250,127.55,10,True,Northeast,106627.88,True,2024-01-12 15:16:28.161406
