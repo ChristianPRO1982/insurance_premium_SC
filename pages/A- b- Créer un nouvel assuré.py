@@ -3,7 +3,7 @@ import streamlit as st
 from random import randint
 from datetime import datetime, timedelta
 
-date_minimale = datetime.today() - timedelta(days=365*100)
+date_minimale = datetime.today() - timedelta(days=365*120)
 
 title = "Créer un(une) assuré(e)"
 st.set_page_config(page_title=title + " - " + common.title, page_icon="favicon.ico", layout="wide")
