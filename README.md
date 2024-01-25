@@ -6,7 +6,9 @@ Ce projet vise à développer une application de prédiction des primes d'assura
 
 - **1-nettoyage.ipynb:** Le notebook Jupyter contenant le code pour le nettoyage des données.
 
-- **2-analyse.ipynb:** Le notebook Jupyter contenant le code pour l'exploration des données et comprendre les tendances.
+- **2-analyse1.ipynb:** Le notebook Jupyter contenant le code pour l'exploration des données et comprendre les tendances.
+
+- **2-analyse2.ipynb:** Le notebook Jupyter contenant le code pour l'exploration des données et comprendre les tendances.
 
 - **3-creation_modele.ipynb:** Le notebook Jupyter contenant le code pour la création du modèle.
 
