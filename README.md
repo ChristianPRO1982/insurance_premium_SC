@@ -2,6 +2,9 @@
 
 Ce projet vise à développer une application de prédiction des primes d'assurance basée sur un modèle de machine learning de régression. Le backend est développé en Python, utilisant notamment la bibliothèque scikit-learn, tandis que le frontend est créé avec Streamlit.
 
+## STREAMLIT
+[application](https://christianpro1982-insurance-premium-sc-homepage-2vftta.streamlit.app/)
+
 ## Fichiers du Projet
 
 - **1-nettoyage.ipynb:** Le notebook Jupyter contenant le code pour le nettoyage des données.
